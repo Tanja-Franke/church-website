@@ -34,7 +34,7 @@ The Way, the Truth & the Life Church is a website aimes to spread the Truth, sup
 
 
 
-- __The Sign Up Page__
+- __The Prayer Request Page__
 
  
 
