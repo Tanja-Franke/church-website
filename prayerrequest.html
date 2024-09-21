@@ -19,24 +19,63 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
+
 <body>
     <!--Header-->
     <header>
         <a href="index.html">
-            <h1 id="logo">The Way, the Truth & the Life Church</h1>  
+            <h1 id="logo">The Way, the Truth & the Life Church</h1>
         </a>
-    <nav>
-        <ul id="menu">
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Prayer Request</a></li>
-        </ul>
-    </nav>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="prayerrequest.html">Prayer Request</a></li>
+            </ul>
+        </nav>
     </header>
     <!--Main content-->
-    <main>Main content</main>
+    <main>
+        <section id="prayer">
+            <form id="prayerrequest-form" action="https://formdump.codeinstitute.net" method="POST">
+                <h2>Prayer Request Form</h2>
+                <label for="first-name">First Name</label>
+                <input class="text-input" id="first-name" name="first-name" type="text" placeholder="First name"
+                    required>
+                <br>
+                <label for="email-address">Email Address</label>
+                <input class="text-input" id="email-address" name="email_address" type="email" placeholder="Your email"
+                    required>
+                <br>
+                <label for="prayer-request">Prayer Request</label>
+                <br>
+                <textarea class="text-input" id="prayer-request" rows="4" cols="80" name="prayer_request"></textarea>
+                <br>
+                <input class="join-button" type="submit" value="Send Prayer!">
+            </form>
+        </section>
+
+
+    </main>
     <!--Footer-->
-    <footer>Footer</footer>
+    <footer>
+        <ul id="social-networks">
+            <li><a href="https://facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li><a href="https://youtube.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li><a href="https://instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-instagram"></i></a></li>
+
+        </ul>
+
+    </footer>
+    <!--Font Awesome Kit-->
+    <script src="https://kit.fontawesome.com/4d6269d5e5.js" crossorigin="anonymous"></script>
 </body>
+
 
 </html>
