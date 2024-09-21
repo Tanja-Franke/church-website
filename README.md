@@ -25,15 +25,13 @@ The Way, the Truth & the Life Church is a website aimes to spread the Truth, sup
 
 
 
-- __Meetup Times section__
+- __Service Times section__
 
 
 
 - __The Footer__ 
 
 
-
-- __Gallery__
 
 
 
@@ -59,7 +57,7 @@ The Way, the Truth & the Life Church is a website aimes to spread the Truth, sup
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+ 
 
 ## Deployment
 
@@ -75,22 +73,19 @@ The live link can be found here -
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
 
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+- The text for the Home page was taken from The Holy Bible
+- Instructions on how to implement form validation on the Prayer Request page was taken from Coders Coffeehouse course content from the code institute.
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- The photos used on the home and sign up page are from This Open Source site [pexels.com](https://www.pexels.com/de-de/collections/christianity-bk1scvv/)
 
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
+
 
 #
