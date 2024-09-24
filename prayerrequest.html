@@ -41,19 +41,31 @@
         <section id="prayer">
             <form id="prayerrequest-form" action="https://formdump.codeinstitute.net" method="POST">
                 <h2>Prayer Request Form</h2>
-                <label for="first-name">First Name</label>
-                <input class="text-input" id="first-name" name="first-name" type="text" placeholder="First name"
+                <label for="prayername">Name</label>
+                <input class="text-input" id="prayername" name="name" type="text" placeholder="Your name"
                     required>
                 <br>
                 <label for="email-address">Email Address</label>
                 <input class="text-input" id="email-address" name="email_address" type="email" placeholder="Your email"
                     required>
                 <br>
+                <br>
+            
+            <div class="form-labels">I want prayers for :</div><br>
+           <div> <input class="me" type="radio" id="myself" name="prayfor" value="myself" required>
+            <label class="form-labels" for="myself">Myself</label><br>
+            <input class="other-ones" type="radio" id="others" name="prayfor" value="other" required>
+            <label class="form-labels" for="others">Others</label><br>
+            <input class="both" type="radio" id="me-and-other" name="prayfor" value="me-and-other" required checked>
+            <label class="form-labels" for="me-and-other">Both</label><br>
+        </div>
+        <br>
                 <label for="prayer-request">Prayer Request</label>
                 <br>
-                <textarea class="text-input" id="prayer-request" rows="4" cols="80" name="prayer_request"></textarea>
+                <textarea class="text-input" id="prayer-request" rows="4" cols="80" name="prayer_request" placeholder="Your Prayer Request"></textarea>
                 <br>
-                <input class="join-button" type="submit" value="Send Prayer!">
+                <input class="send-button" type="submit" value="Send Prayer!">
+                <input class="reset-button" type="reset" value="Start over!"
             </form>
         </section>
 

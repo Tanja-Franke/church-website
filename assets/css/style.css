@@ -1,6 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap');
 /*Asterisk wildcard selector to override default styles added by the browser*/
 * {
     padding: 0;
@@ -15,13 +14,13 @@ body {
     flex-direction: column;
     /*Generic project styles*/
     color: #3a3a3a;
-    font-family: 'Lobster Two', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 h1,
 h2,
 h3 {
-    font-family: 'Lobster Two', sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
@@ -48,6 +47,13 @@ header a {
     text-decoration: none;
     color: inherit;
 
+}
+header img{
+    float: left;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
 }
 
 
@@ -109,9 +115,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/cross.jpg") no-repeat center center/cover;
-
-
+    background: url("assets/images/cross.jpg") no-repeat center center/cover;
     position: relative;
 
 }
@@ -133,7 +137,22 @@ main {
 #cover-text>h3 {
     color: #ffffff;
 }
-
+/*Chosen section*/
+#chosen{
+    background-color: #D6E5E3;
+    padding: 0 1rem;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+#chosen>h2{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
 /*Reasons section*/
 #reasons {
     width: 90%;
@@ -146,8 +165,8 @@ main {
     font-size: 280%;
 }
 
-#benefits-spiritual>div,
-#benefits-mental>div {
+#immanuel>div,
+#jesus>div {
     line-height: 20px;
     margin-bottom: 20px;
 }
@@ -238,8 +257,8 @@ main {
 /*Form*/
 #prayerrequest-form {
     color: #ffffff;
-    background-color: rgba(60, 60, 60, .6);
-    padding: 30px;
+    background-color: rgba(40, 38, 38, 0.6);
+    padding: 10px;
 }
 
 #prayerrequest-form>h2 {
@@ -264,7 +283,16 @@ main {
     width: 100%;
 }
 
-.join-button {
+
+.reset-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #517664;
+    color: #fafafa;
+}
+.send-button {
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px;
@@ -345,19 +373,19 @@ main {
     }
 
     /* Reasons section */
-    #benefits-spiritual,
-    #benefits-mental {
+    #immanuel,
+    #jesus {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
 
-    #benefits-spiritual>div,
-    #benefits-mental>div {
+    #immanuel>div,
+    #jesus>div {
         width: 75%;
     }
 
-    #benefits-mental>div {
+    #jesus>div {
         text-align: end;
         align-self: flex-end;
     }
