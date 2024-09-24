@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 /*Asterisk wildcard selector to override default styles added by the browser*/
 * {
     padding: 0;
@@ -14,7 +14,7 @@ body {
     flex-direction: column;
     /*Generic project styles*/
     color: #3a3a3a;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Old Standard TT', sans-serif;
 }
 
 h1,
@@ -53,7 +53,6 @@ header img{
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  text-align: center;
 }
 
 
@@ -115,7 +114,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("assets/images/cross.jpg") no-repeat center center/cover;
+    background: url("../images/cross.jpg") no-repeat center center/cover;
     position: relative;
 
 }
@@ -144,22 +143,21 @@ main {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
-    display: flex;
-    justify-content: space-between;
     align-items: baseline;
+    text-align: center;
 }
 #chosen>h2{
     margin-bottom: 20px;
     text-align: center;
     font-size: 280%;
 }
-/*Reasons section*/
-#reasons {
+/*Arguments section*/
+#arguments {
     width: 90%;
     margin: 20px auto;
 }
 
-#reasons h2 {
+#arguments h2 {
     margin-bottom: 20px;
     text-align: center;
     font-size: 280%;
@@ -171,11 +169,11 @@ main {
     margin-bottom: 20px;
 }
 
-#benefits p {
+#blessings p {
     padding: 0 20px;
 }
 
-#benefits hr {
+#blessings hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
 }
@@ -191,7 +189,7 @@ main {
     max-height: 300px;
 }
 
-#benefits-image {
+#blessings-image {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -372,7 +370,7 @@ main {
 
     }
 
-    /* Reasons section */
+    /* Arguments section */
     #immanuel,
     #jesus {
         display: flex;
@@ -433,29 +431,29 @@ main {
 
 @media screen and (min-width: 1200px) {
 
-    /*Reasons section*/
-    #benefits {
+    /*Arguments section*/
+    #blessings {
         display: flex;
         flex-direction: row;
     }
 
-    #benefits>div {
+    #blessings>div {
         flex: 1;
     }
 
-    #benefits-image {
+    #blessings-image {
         order: 0
     }
 
-    #benefits-mental {
+    #jesus {
         order: 1;
     }
 
-    #benefits-mental>div {
+    #jesus>div {
         align-self: flex-start;
     }
 
-    #benefits-spiritual>div {
+    #immanuel>div {
         align-self: flex-end;
     }
 
