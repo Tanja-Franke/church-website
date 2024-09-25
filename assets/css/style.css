@@ -181,7 +181,7 @@ main {
 #circle-cover-bg {
     height: 90vw;
     width: 90vw;
-    background: url("../images/jesus.jpg") no-repeat top center/cover;
+    background: url("../images/twtttlc.png") no-repeat top center/cover;
     margin-bottom: 20px;
     /*Makes the square image into a circle*/
     border-radius: 50%;
@@ -222,20 +222,23 @@ main {
 
 /*About Page*/
 #aboutus {
-    background: url("../images/faith.jpg") no-repeat top center/cover;
+    background: #D6E5E3;
     height: 600px;
     width: 100%;
     position: relative;
 
 }
 #about{
+    margin-top: 20px;
     margin-bottom: 20px;
-    text-align:justify;
+    text-align:left;
     font-size: 280%;
 }
-#photos img {
-    width: 100%;
-    line-height: 1em;
+#aboutpic {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    background: url("../images/twtttlc.png") no-repeat top center/cover;
 }
 
 #photos {
