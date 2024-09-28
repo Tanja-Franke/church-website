@@ -31,15 +31,15 @@
         <nav>
             <ul id="menu">
                 <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="prayerrequest.html">Prayer Request</a></li>
+                <li><a href="about.html" >About</a></li>
+                <li><a href="prayerrequest.html" >Prayer Request</a></li>
             </ul>
         </nav>
     </header>
     <!--Main content-->
     <main>
         <section id="prayer">
-            <form id="prayerrequest-form" action="thankyouforprayerrequest.html" method="post">
+            <form id="prayerrequest-form">
                 <h2>Prayer Request Form</h2>
                 <label for="prayername">Name</label>
                 <input class="text-input" id="prayername" name="name" type="text" placeholder="Your name" required>
@@ -65,7 +65,7 @@
                 <textarea class="text-input" id="prayer-request" rows="4" cols="80" name="prayer_request"
                     placeholder="Your Prayer Request"></textarea>
                 <br>
-                <input class="send-button" type="submit" value="Send Prayer!">
+                <a href="thankyouforprayerrequest.html"><input type="button" class="send-button" value="Send Prayer!"/></a>
             </form>
         </section>
 

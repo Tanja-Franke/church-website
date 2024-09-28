@@ -19,7 +19,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     font-family: 'Playfair Display', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -32,7 +33,7 @@ h3 {
 
 /*Header*/
 header {
-    background-color: #D6E5E3;
+    background-color: #cacfd6;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -67,7 +68,7 @@ header img{
     margin-bottom: 1em;
 }
 
-.active {
+#menu li.active {
     border-bottom: 1px solid #3a3a3a;
 
 }
@@ -75,7 +76,7 @@ header img{
 /*Navbar styles with dropdown toggle*/
 nav {
     position: absolute;
-    background-color: #D6E5E3;
+    background-color: #cacfd6;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -114,14 +115,14 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/cross.jpg") no-repeat center center/cover;
+    background: url("../images/cross-on-hill.jpg") no-repeat center center/cover;
     position: relative;
 
 }
 
 
 #cover-text {
-    background-color: #9FD8CB;
+    background-color: #797270;
     font-size: 130%;
     position: absolute;
     bottom: 30px;
@@ -133,23 +134,28 @@ main {
 }
 
 #cover-text>h2,
-#cover-text>h3 {
+#cover-text>h3,
+#cover-text>h4,
+#cover-text>p {
     color: #ffffff;
 }
 /*Chosen section*/
 #chosen{
-    background-color: #D6E5E3;
+    background-color: rgba(0, 0, 0, .6);
     padding: 0 1rem;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     align-items: baseline;
-    text-align: center;
+    text-align: justify;
+    font-size: 140%;
+    color: #ffffff;
 }
 #chosen>h2{
     margin-bottom: 20px;
     text-align: center;
-    font-size: 280%;
+    font-size: 150%;
+    color: #ffffff;
 }
 /*Arguments section*/
 #arguments {
@@ -178,23 +184,7 @@ main {
     margin: 5px 0;
 }
 
-#circle-cover-bg {
-    height: 90vw;
-    width: 90vw;
-    background: url("../images/twtttlc.png") no-repeat top center/cover;
-    margin-bottom: 20px;
-    /*Makes the square image into a circle*/
-    border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
-}
 
-#blessings-image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
 
 #times {
     /* Responsiveness without a media query */
@@ -227,20 +217,15 @@ main {
     height: 600px;
     width: 100%;
     position: relative;
-
-}
+    box-shadow: 0 2px 2px #3a3a3a;
+   }
 #about{
     margin-top: 20px;
     margin-bottom: 20px;
     text-align:left;
     font-size: 280%;
 }
-#aboutpic {
-    display: flex;
-    align-items: left;
-    justify-content: center;
-    background: url("../images/twtttlc.png") no-repeat top center/cover;
-}
+
 #profilecovertext { 
     background-color: #a7a7a9;
     font-size: 130%;
@@ -252,14 +237,21 @@ main {
     padding-left: 10px;
 }
 #credences{
-    list-style-type: square;
+    list-style-type:;
 }
-#pastor, #beliefs {
-    width: 90%;
-    margin: 20px auto;
+#pastor {
+    background-color: #B0C0BC;
+    padding: 0 1rem;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    align-items: baseline;
+    text-align: left;
 }
-
-#pastor, #beliefs h2 {
+#elena{
+  text-align: left;  
+}
+ #pastor, #beliefs h2 {
     margin-bottom: 20px;
     text-align: center;
     font-size: 120%;
@@ -341,13 +333,16 @@ main {
 
 }
 
-#social-networks i {
+#social-networks li {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
 
 }
-
+#copy{
+    float: right;
+    color: #3a3a3a;
+}
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     #photos {
