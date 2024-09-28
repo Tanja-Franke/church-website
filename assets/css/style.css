@@ -220,7 +220,7 @@ main {
     background: #D6E5E3;
     height: 600px;
     width: 100%;
-    position: end;
+    position: relative;
     box-shadow: 0 2px 2px #3a3a3a;
     background: url("../images/cross-in-nature.jpg") no-repeat center center/cover;
 
@@ -246,9 +246,6 @@ main {
     font-size:120%;
 }
 
-#credences {
-    list-style-type: ;
-}
 
 #pastor {
     background-color: #B0C0BC;
