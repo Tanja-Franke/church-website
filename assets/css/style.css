@@ -322,6 +322,14 @@ main {
     background-color: #517664;
     color: #fafafa;
 }
+/* Thank you page */
+#thx{
+    background: url("../images/pray.jpg");
+    background-size: cover;
+    background-position: 75%;
+    flex-grow: 1;
+    padding: 20px 10% 0 10%;
+}
 
 /*Footer*/
 #social-networks {
