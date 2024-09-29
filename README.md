@@ -1,94 +1,3 @@
-# The-Way-The-Truth-&-The-Life-Church
-
-View the live project[here.](https://tanja-franke.github.io/twtttl-church/)<br>
-The Way, the Truth & the Life Church is a website aimes to spread the Truth, support believers to grow in their faith in Jesus Christ, learn more about the church and join services or prayer meetings online. The site is targeted towards true believers from everywhere who are looking for a church or who want to equip themselves with the Truth found in the Word of God. The Way, the Truth & the Life Church will benefits believers who are looking for the Truth and those who need prayers.
-
-## User Experience (UX)
-
-
-
-
-
-## Features 
-
-
-
-### Existing Features
-
-- __Navigation Bar__
-
-
-
-- __The landing page image__
-
-
-- __About Us Section__
-
-
-
-- __Service Times section__
-
-
-
-- __The Footer__ 
-
-
-
-
-
-- __The Prayer Request Page__
-
- 
-
-
-
-### Features Left to Implement
-
-
-## Testing 
-
-
-
-### Validator Testing 
-
-- HTML
- 
-- CSS
- 
-
-### Unfixed Bugs
-
- 
-
-## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
-
-The live link can be found here - 
-
-
-## Credits 
-
-
-
-### Content 
-
-- The text for the Home page was taken from The Holy Bible
-- Instructions on how to implement form validation on the Prayer Request page was taken from Coders Coffeehouse course content from the code institute.
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-### Media
-
-- The photos used on the home and sign up page are from This Open Source site [pexels.com](https://www.pexels.com/de-de/collections/christianity-bk1scvv/)
-
-
-
-
 #
 # The Way, the Truth & the Life Church <img src="assets/images/twtttlc.png" alt="the Way, the Truth & the Life Church" height="50">
 
@@ -96,19 +5,18 @@ The live link can be found here -
 
 Learn more about Jesus, the Word of God and get to know the Way, the Truth & the Life Church.
 
-![iphone mockup](/assets/images/mockuuups-iphone-mockup.webp)
-![ipad mockup](/assets/images/mockuuups-ipad-air-mockup.webp)
-![macbook mockup](/assets/images/mockuuups-macbook-pro-mockup.webp)
+![mockup on different devices](assets/images/amiresponsivescreen.PNG)
 
-You can visit the live website [here!](https://devon-rex.netlify.app/)
+
+You can visit the live website [here!](https://tanja-franke.github.io/twtttl-church/)
 
 ## **User Experience**
 
-This project was born out of a shared love for Devon Rex cats and to celebrate their unique qualities and provide valuable information to owners and enthusiasts.
+This project was initiated to give the Way, the Truth & the Life Church an online presence. The website aimes to provide the visitors with information about the church and anything related to the christian faith.
 
 ### **Project Goals**
 
-1. **Educational Resource:** To offer comprehensive care tips, breed traits, and behavior insights to both current and potential Devon Rex cat owners.
+1. **Educational Resource:** To offer comprehensive care tips, breed traits, and  insights to both current and potential Devon Rex cat owners.
 
 2. **Community Engagement:** To foster a vibrant online community where enthusiasts can connect, share experiences, and engage with captivating content.
 
@@ -116,23 +24,22 @@ This project was born out of a shared love for Devon Rex cats and to celebrate t
 
 ### **Target Audience**
 
-Our target audience includes current Devon Rex cat owners, prospective owners, and enthusiasts seeking information, community engagement, and a shared love for Devon Rex cats.
+Our target audience includes non-believers, new-believers as well as mature-believers and among them members of the church. Basically anyone interested in Christian faith and looking for a church they want to join.
 
 ## **Design**
-
+![Wireframe landing-page](assets/images/wireframe-landing.png)
+![Wireframe about-page](assets/images/wireframe-about.png)
+![Wireframe prayer-request-page](assets/images/wireframe-prayerrequest.png)
 ### **Colours**
 
-![Coolors Palette](/assets/images/colour-palette.webp)
+![Coolors Palette](assets/images/churchweb.png)
 
 ### **Typography**
 
-- All icons were sourced though [Iconify](https://www.figma.com/community/plugin/735098390272716381/iconify) Figma plugin and [Font Awesome](https://fontawesome.com/)
+- All icons were sourced though [Font Awesome](https://fontawesome.com/)
 - All fonts were sourced through [Google Fonts](https://fonts.google.com/)
-- [Libre Caslon Text](https://fonts.google.com/specimen/Libre+Caslon+Text)
-- [Inter](https://fonts.google.com/specimen/Inter)
+- [Roboto](https://fonts.google.com/specimen/Roboto)
 
-![libre google fonts](/assets/images/libre-google-fonts.webp)
-![inter google fonts](/assets/images/inter-google-fonts.webp)
 
 ### **Wireframe and Prototype**
 
@@ -165,7 +72,7 @@ Our target audience includes current Devon Rex cat owners, prospective owners, a
 
 ### **Meta Tags and Optimization**
 
-The `<head>` section of the Devon Rex website includes essential meta tags for SEO and social media sharing. The meta description provides a summary for search engines, while the keywords tag helps search engines understand the site content. The Open Graph URL tag defines the canonical URL for social media, and the author tag credits Tulio Minini. The Open Graph title and image tags set the title and image for social media sharing, ensuring the content is attractive and informative when shared on platforms like Facebook and Twitter.
+The `<head>` section of the Way, the Truth & the Life Church website includes essential meta tags for SEO and social media sharing. The meta description provides a summary for search engines, while the keywords tag helps search engines understand the site content. The Open Graph title and image tags set the title and image for social media sharing, ensuring the content is attractive and informative when shared on platforms like Facebook and Twitter.
 
 ### **Navbar**
 
@@ -181,30 +88,30 @@ The "Hero" section of the Devon Rex website features a prominent title and a sub
 |-------------------|-------------------|
 |<img src="./assets/images/hero-section-desktop.webp" alt="hero section screenshot for desktop"/>|<img src="./assets/images/hero-section-mobile.webp" alt="hero section screenshot for mobile"/>|
 
-### **History Section**
+### **Chosen Section**
 
-The "History" section of the Devon Rex website provides a detailed account of the breed's origin and development. It explains how the Devon Rex cat breed was discovered in Devon, England, resulting from a natural genetic mutation. The section traces the breed's history from its initial discovery to its recognition by cat fanciers and breeding associations. It highlights key milestones and significant figures in the breed's development, offering a comprehensive overview of how the Devon Rex became the beloved and distinctive breed it is today.
+The "Chosen" section of the Way, the Truth & the Life Church website provides a call for action and information about what users will find on this website.
 | Desktop | Mobile |
 |-------------------|-------------------|
 |<img src="./assets/images/history-section-desktop.webp" alt="history section screenshot for desktop"/>|<img src="./assets/images/history-section-mobile.webp" alt="history section screenshot for mobile"/>|
 
-### **Traits Section**
+### **Arguments Section**
 
-The "Traits" section is crafted to provide visitors with a comprehensive understanding of the distinctive characteristics of Devon Rex. Each trait card is not only accompanied by concise yet informative descriptions but also features an engaging hover effect, allowing for interactive exploration. This innovative design enhances user experience, making it easier to engage with the material. Bold headings and bullet points draw attention to key traits, while the use of descriptive language ensures clarity and engagement.
+The "Arguments" section is buildt to provide visitors with an overall insight of why they should believe in Jesus. Reasons are divided into four sections proving the belonging Bible-verses to support the arguments.
 | Desktop | Mobile |
 |-------------------|-------------------|
 |<img src="./assets/images/traits-section-desktop.webp" alt="traits section screenshot for desktop"/>|<img src="./assets/images/traits-section-mobile.webp" alt="traits section screenshot for mobile"/>|
 
-### **Care Section**
+### **Service Time Section**
 
-The "Care" section is meticulously curated to provide Devon Rex cat enthusiasts with comprehensive guidance on nurturing and maintaining the well-being of these beloved feline companions. Through informative and practical advice tailored specifically to the needs of Devon Rex cats, each aspect of care is addressed, offering valuable insights and tips for optimal health and happiness. The section's design prioritizes user-friendliness, featuring clear headings and organized sub-sections for easy navigation.
+The "Service-time" section is meticulously curated to provide visitors with date, time and location for a specific event. The section's design prioritizes user-friendliness, featuring clear headings and organized sub-sections for easy navigation.
 | Desktop | Mobile |
 |-------------------|-------------------|
 |<img src="./assets/images/care-section-desktop.webp" alt="care section screenshot for desktop"/>|<img src="./assets/images/care-section-mobile.webp" alt="care section screenshot for mobile"/>|
 
-### **Gallery Section**
+### **About Section**
 
-The "Gallery" section is a visual celebration of the unique charm and personality of Devon Rex cats. A curated collection of photographs capturing the playful antics, expressive faces, and graceful movements of these enchanting feline companions. Each image is enhanced with a hover effect, allowing you to interactively explore the captivating world of Devon Rex cats. From adorable kittenhood to majestic adulthood, every picture offers a glimpse into the captivating world of Devon Rex cats, showcasing their distinctive curly coats, large ears, and expressive eyes.
+The "About" section is a visual celebration of the unique charm and personality of Devon Rex cats. A curated collection of photographs capturing the playful antics, expressive faces, and graceful movements of these enchanting feline companions. Each image is enhanced with a hover effect, allowing you to interactively explore the captivating world of Devon Rex cats. From adorable kittenhood to majestic adulthood, every picture offers a glimpse into the captivating world of Devon Rex cats, showcasing their distinctive curly coats, large ears, and expressive eyes.
 | Desktop | Mobile |
 |-------------------|-------------------|
 |<img src="./assets/images/gallery-section-desktop.webp" alt="gallery section screenshot for desktop"/>|<img src="./assets/images/gallery-section-mobile.webp" alt="gallery section screenshot for mobile"/>|
@@ -216,7 +123,7 @@ The "Footer" section, you'll find quick access to essential resources and inform
 |-------------------|-------------------|
 |<img src="./assets/images/footer-section-desktop.webp" alt="gallery section screenshot for desktop"/>|<img src="./assets/images/footer-section-mobile.webp" alt="gallery section screenshot for mobile"/>|
 
-### **Subscriber Page**
+### **Prayer Request Page**
 
 The subscriber page is a thank-you to new subscribers, complete with a warm message, a button to return to the homepage, and a Devon Rex image. It's a cozy corner of our website dedicated to welcoming new members to our Devon Rex cat community.
 | Desktop | Mobile |
@@ -519,3 +426,86 @@ Credits to: shutterstock.com @malee2, @Veera, Unsplash - @ivanlyah, Pinterest - 
 ## Acknowledgements
 
 A special thank you to my mentor [Harry Dhillon](https://www.linkedin.com/in/harry-dhillon-299b321b3/) from [Code Institute](https://codeinstitute.net/ie/), for your advice, feedback and reviewing my work!
+
+
+
+
+
+
+## Features 
+
+
+
+### Existing Features
+
+- __Navigation Bar__
+
+
+
+- __The landing page image__
+
+
+- __About Us Section__
+
+
+
+- __Service Times section__
+
+
+
+- __The Footer__ 
+
+
+
+
+
+- __The Prayer Request Page__
+
+ 
+
+
+
+### Features Left to Implement
+
+
+## Testing 
+
+
+
+### Validator Testing 
+
+- HTML
+ 
+- CSS
+ 
+
+### Unfixed Bugs
+
+ 
+
+## Deployment
+
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - 
+
+
+## Credits 
+
+
+
+### Content 
+
+- The text for the Home page was taken from The Holy Bible
+- Instructions on how to implement form validation on the Prayer Request page was taken from Coders Coffeehouse course content from the code institute.
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+### Media
+
+- The photos used on the home and sign up page are from This Open Source site [pexels.com](https://www.pexels.com/de-de/collections/christianity-bk1scvv/)
+
