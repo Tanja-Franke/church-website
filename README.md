@@ -1,6 +1,6 @@
 # The-Way-The-Truth-&-The-Life-Church
 
-[View the live project here.](https://tanja-franke.github.io/twtttl-church/)<br>
+View the live project[here.](https://tanja-franke.github.io/twtttl-church/)<br>
 The Way, the Truth & the Life Church is a website aimes to spread the Truth, support believers to grow in their faith in Jesus Christ, learn more about the church and join services or prayer meetings online. The site is targeted towards true believers from everywhere who are looking for a church or who want to equip themselves with the Truth found in the Word of God. The Way, the Truth & the Life Church will benefits believers who are looking for the Truth and those who need prayers.
 
 ## User Experience (UX)
@@ -90,11 +90,11 @@ The live link can be found here -
 
 
 #
-# Devon Rex <img src="./assets/images/readme-cat-img.png" alt="devon rex face" height="50">
+# The Way, the Truth & the Life Church <img src="assets/images/twtttlc.png" alt="the Way, the Truth & the Life Church" height="50">
 
 ## Description
 
-Discover all things Devon Rex — history, traits and care tips for this enchanting cat breed.
+Learn more about Jesus, the Word of God and get to know the Way, the Truth & the Life Church.
 
 ![iphone mockup](/assets/images/mockuuups-iphone-mockup.webp)
 ![ipad mockup](/assets/images/mockuuups-ipad-air-mockup.webp)

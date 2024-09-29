@@ -43,7 +43,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-}
+  }
 
 header a {
     text-decoration: none;
@@ -80,15 +80,15 @@ nav {
 }
 
 /*Nav toggle*/
-#nav-toggle:checked~nav {
+#nav-switch:checked~nav {
     display: block;
 }
 
-#nav-toggle {
+#nav-switch {
     display: none;
 }
 
-.nav-toggle-label {
+.nav-switch-label {
     font-size: 2rem;
 }
 
@@ -376,22 +376,24 @@ main {
 
 /* Thank you page */
 #grateful {
-      background: url("../images/morning-prayer.jpg") no-repeat center center/cover;
+      background: url("../images/open-bible.png") no-repeat center center/cover;
       flex-grow: 1;
-      padding: 50px 20% 0 20%;
+      padding: 50px 0% 0 20%;
       clear:left;
-      background-size: cover;
-      background-position: center;
       height: 900px;
       object-fit: cover;
       position: relative;
+      margin: 0;
+    box-shadow: 0 2px 2px #3a3a3a;
+
+      
 }
-#thx{
+#prayeranswer{
     visibility: hidden;
 }
 
 #appreciation{
-    text-align: center;
+text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -405,12 +407,13 @@ main {
 }
 #returnbutton{
     margin-top: 20px;
-    border-radius: 2px;
+    border-radius: 5px;
     padding: 15px 32px;
     font-size: 100%;
     background-color: #517664;
     color: #fafafa;
 }
+
 
 
 /*Footer*/
@@ -431,17 +434,11 @@ main {
 }
 
 #copy {
-    float: right;
+    float: left;
     color: #2d3319;
 }
 
-/* Media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 576px) {
-    #photos {
-        column-count: 2;
-        column-gap: 0;
-    }
-}
+
 
 /*Media query: tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
@@ -464,7 +461,7 @@ main {
         padding-left: 1rem;
     }
 
-    .nav-toggle-label {
+    .nav-switch-label {
         display: none;
     }
 
@@ -507,11 +504,7 @@ main {
         align-self: flex-end;
     }
 
-    /* About */
-    #photos {
-        column-count: 3;
-    }
-}
+   }
 
 /* Prayer Request page */
 #prayerrequest {
@@ -530,7 +523,7 @@ main {
     border-color: #2D3319;
 }
 
-.join-button:hover {
+.send-button:hover {
     background-color: #fafafa;
     color: #2D3319;
 }
