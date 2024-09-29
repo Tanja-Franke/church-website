@@ -1,5 +1,7 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap');
+</style>
 
 /*Asterisk wildcard selector to override default styles added by the browser*/
 * {
@@ -15,13 +17,13 @@ body {
     flex-direction: column;
     /*Generic project styles*/
     color: #3a3a3a;
-    font-family: 'Old Standard TT', sans-serif;
+    font-family: 'Noto Sans Thai', sans-serif;
 }
 
 h1,
 h2,
 h3 {
-    font-family: 'Playfair Display', sans-serif;
+    font-family: 'Noto Sans Thai', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
