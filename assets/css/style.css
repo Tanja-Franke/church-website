@@ -51,15 +51,6 @@ header a {
 
 }
 
-header img {
-    float: left;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-}
-
-
-
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -117,14 +108,14 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/cross-on-hill.jpg") no-repeat center center/cover;
+    background: url("../images/simple-cross.jpg") no-repeat center center/cover;
     position: relative;
 
 }
 
 
 #cover-text {
-    background-color: #797270;
+    background-color: #2d3319;
     font-size: 130%;
     position: absolute;
     bottom: 30px;
@@ -215,23 +206,51 @@ main {
 }
 
 /*About Page*/
-
-#aboutus {
-    background: #D6E5E3;
+#main{
     height: 600px;
     width: 100%;
+    background: url("../images/quiet-time.jpg") no-repeat center center/cover;
     position: relative;
-    box-shadow: 0 2px 2px #3a3a3a;
-    background: url("../images/cross-in-nature.jpg") no-repeat center center/cover;
-
 }
-
-#about {
-    margin-top: 20px;
+#aboutcover{
+    background-color: #57737A;
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+#aboutcover>h1
+{
+    color:#ffffff;
+    text-align: center;
+    font-size: 180%;
+      
+}
+/* Who we are Section*/
+#church{
+    background-color: #b0c0bc;
+    padding: 0 1rem;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    align-items: baseline;
+    text-align: justify;
+    font-size: 140%;
+}
+#church>h2{
     margin-bottom: 20px;
     text-align: left;
-    font-size: 100%;
+    font-size: 150%;
+
 }
+#profile{
+    text-align: justify;
+    list-style-position: inside;
+    text-align-last:auto ;
+   }
 
 #profilecovertext {
     background-color: #a7a7a9;
@@ -245,8 +264,23 @@ main {
     text-align: end;
     font-size:120%;
 }
-
-
+/* Beliefs, Mission & Vision section */
+#bmv{
+    width: 90%;
+    margin: 20px auto;
+}
+#bmv h2{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+#basics>div,
+#mission>div,
+#vision>div{
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+/* Pastor Section */
 #pastor {
     background-color: #B0C0BC;
     padding: 0 1rem;
@@ -254,16 +288,30 @@ main {
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     align-items: baseline;
-    text-align: left;
+    text-align: justify;
     display: block;
 }
-
-#elena {
-    text-align: left;
+#pastor hr{
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
 }
 
-#pastor,
-#beliefs h2 {
+#pastor-image{
+    height: 90vw;
+    width: 90vw;
+    background: url("../images/ajarnandhusband.jpg") no-repeat top center/cover;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    max-width: 300px;
+    max-height: 300px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    display:block;
+    margin-left: auto;
+  margin-right: auto;
+}
+#pastor h2 {
     margin-bottom: 20px;
     text-align: center;
     font-size: 120%;
@@ -273,19 +321,25 @@ main {
 /*Prayer Request page*/
 
 #prayer {
-    background: url("../images/praying-hands.jpg");
-    background-size: cover;
-    background-position: 75%;
+    background: url("../images/heaven.jpg");
     flex-grow: 1;
     padding: 50px 20% 0 20%;
+    clear:left;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
 }
 
 /*Form*/
 #prayerrequest-form {
+    margin: 100px 10% 0 0;
     color: #ffffff;
-    background-color:rgba(170, 158, 158, 0.6);
-    padding: 20px 10% 0 10%;
-    
+    background-color: rgba(13, 9, 22, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+
 }
 
 #prayerrequest-form>h2 {
@@ -322,11 +376,18 @@ main {
 
 /* Thank you page */
 #grateful {
-    height: 600px;
-    width: 100%;
-    background: url("../images/open-bible.jpg") no-repeat center center/cover;
-    position: relative;
-    color: #ffffff;
+      background: url("../images/morning-prayer.jpg") no-repeat center center/cover;
+      flex-grow: 1;
+      padding: 50px 20% 0 20%;
+      clear:left;
+      background-size: cover;
+      background-position: center;
+      height: 900px;
+      object-fit: cover;
+      position: relative;
+}
+#thx{
+    visibility: hidden;
 }
 
 #appreciation{
@@ -337,6 +398,7 @@ main {
   transform: translate(-50%, -50%);
   color: #ffffff;
   background-color: #2D3319;
+  border-radius: 2px;
 }
 #appreciation h2{
     color: #ffffff;
@@ -349,6 +411,7 @@ main {
     background-color: #517664;
     color: #fafafa;
 }
+
 
 /*Footer*/
 #social-networks {
@@ -363,13 +426,13 @@ main {
 #social-networks li {
     font-size: 160%;
     padding: 5%;
-    color: #453F3C;
+    color: #2d3319;
 
 }
 
 #copy {
     float: right;
-    color: #453F3C;
+    color: #2d3319;
 }
 
 /* Media query: large or landscape phones (576px and up) */
