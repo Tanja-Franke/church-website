@@ -16,9 +16,9 @@ This project was initiated to give the Way, the Truth & the Life Church an onlin
 
 ### **Project Goals**
 
-1. **Educational Resource:** To offer comprehensive care tips, breed traits, and  insights to both current and potential Devon Rex cat owners.
+1. **Educational Resource:** To offer comprehensive knowledge abou the christian faith for non-believers as well as believers.
 
-2. **Community Engagement:** To foster a vibrant online community where enthusiasts can connect, share experiences, and engage with captivating content.
+2. **Community Engagement:** To foster a vibrant online community where believers can connect, share experiences, and engage with each other by joining online sevices or prayer meetings as well as by sending praying requests.
 
 3. **User-Friendly Experience:** To create a visually appealing and easy-to-navigate website accessible to users of all backgrounds.
 
