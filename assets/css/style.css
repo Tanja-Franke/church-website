@@ -1,7 +1,7 @@
 /* Google fonts import */
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap');
-</style>
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 
 /*Asterisk wildcard selector to override default styles added by the browser*/
 * {
@@ -17,14 +17,13 @@ body {
     flex-direction: column;
     /*Generic project styles*/
     color: #3a3a3a;
-    font-family: 'Noto Sans Thai', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1,
 h2,
-h3,
-h4 {
-    font-family: 'Noto Sans Thai', sans-serif;
+h3 {
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
@@ -110,7 +109,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/simple-cross.jpg") no-repeat center center/cover;
+    background: url("../images/simple-cross-mini.jpg") no-repeat center center/cover;
     position: relative;
 
 }
@@ -195,15 +194,15 @@ main {
     padding: 15px;
     text-align: center;
     /* This will not wrap on screen less than 400px wide. 
-    Each div will expand to fill the available space on its row */
+    Each div will expand to fill the available space on its row (Love-running-project)*/
     flex-basis: 200px;
     flex-grow: 1;
-    /* Creates a grid of meetup time divs over the background image */
+    /* Creates a grid of meetup time divs over the background image (Love-running-project) */
     border: 2px solid white;
 }
 
 #times h3 {
-    /* override the heading color set in general styles */
+    /* override the heading color set in general styles (Love-running-project) */
     color: #fafafa;
 }
 
@@ -211,7 +210,7 @@ main {
 #main{
     height: 600px;
     width: 100%;
-    background: url("../images/quiet-time.jpg") no-repeat center center/cover;
+    background: url("../images/quiet-time-mini.jpg") no-repeat center center/cover;
     position: relative;
 }
 #aboutcover{
@@ -323,7 +322,7 @@ main {
 /*Prayer Request page*/
 
 #prayer {
-    background: url("../images/heaven.jpg");
+    background: url("../images/heaven-min.jpg");
     flex-grow: 1;
     padding: 50px 20% 0 20%;
     clear:left;
