@@ -47,7 +47,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-
 }
 
 #menu {
@@ -60,9 +59,8 @@ header a {
     margin-bottom: 1em;
 }
 
-#menu li.active {
+#menu .active {
     border-bottom: 1px solid #3a3a3a;
-
 }
 
 /*Navbar styles with dropdown toggle*/
@@ -75,7 +73,6 @@ nav {
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
-
 }
 
 /*Nav toggle*/
@@ -93,11 +90,8 @@ nav {
 
 /*Main content*/
 main {
-
-    /*Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
     margin-top: auto;
-    /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
 }
@@ -131,22 +125,25 @@ main {
 /*Chosen section*/
 #chosen {
     background-color: #cacfd6;
-    padding: 0 1rem;
+    padding: 15px;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     align-items: baseline;
-    text-align: left;
+    text-align: center;
     font-size: 140%;
-}
+    }
 
 #chosen>h2 {
     margin-bottom: 20px;
     text-align: center;
     font-size: 150%;
-
 }
-
+#special {
+    border: solid;
+    border-radius: 5px;
+    display: inline-block;
+}
 /*Arguments section (inspired by the love running project)*/
 #arguments {
     width: 90%;
@@ -163,6 +160,10 @@ main {
 #jesus>div {
     line-height: 20px;
     margin-bottom: 20px;
+}
+#learn{
+    color: #3a3a3a;
+    text-decoration: none;
 }
 
 #blessings p {
@@ -188,6 +189,7 @@ main {
     flex-basis: 200px;
     flex-grow: 1;
     border: 2px solid white;
+    font-size: larger;
 }
 
 #times h3 {
@@ -209,11 +211,9 @@ main {
     bottom: 30px;
     width: 80%;
     min-height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
-}
+   }
 
-#aboutcover>h1 {
+#aboutcover>h2 {
     color: #ffffff;
     text-align: center;
     font-size: 180%;
@@ -227,37 +227,25 @@ main {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
-    align-items: baseline;
-    text-align: justify;
+    align-items: center;
+    text-align: center;
     font-size: 140%;
-}
+  }
 
 #church>h2 {
     margin-bottom: 20px;
-    text-align: left;
-    font-size: 150%;
+    text-align: center;
+    font-size: 280%;
 
 }
 
 #profile {
-    text-align: justify;
+    text-align: left;
     list-style-position: inside;
     text-align-last: auto;
-}
-
-#profilecovertext {
-    background-color: #a7a7a9;
-    font-size: 130%;
-    position: absolute;
-    padding: 25px 50px 75px 100px;
-    text-align: end;
-    float: inline-end;
-}
-
-#profilecovertext h2 {
-    text-align: end;
-    font-size: 120%;
-}
+    list-style-type: none;
+    text-wrap: balance;
+  }
 
 /* Beliefs, Mission & Vision section */
 #bmv {
@@ -318,7 +306,6 @@ main {
 }
 
 /*Prayer Request page*/
-
 #prayer {
     background: url("../images/heavenly.webp");
     flex-grow: 1;
@@ -338,7 +325,6 @@ main {
     position: absolute;
     left: 10%;
     padding: 30px;
-
 }
 
 #prayerrequest-form>h2 {
@@ -383,8 +369,6 @@ main {
     position: relative;
     margin: 0;
     box-shadow: 0 2px 2px #3a3a3a;
-
-
 }
 
 #prayeranswer {
@@ -416,26 +400,27 @@ main {
 }
 
 /*Footer*/
+footer{
+    background-color: #cacfd6;
+}
 #social-networks {
     text-align: center;
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-
-}
+ }
 
 #social-networks li {
-    font-size: 160%;
+    font-size: 150%;
     padding: 5%;
     color: #2d3319;
-
 }
 
 #copy {
-    float: left;
+    float: right;
     color: #2d3319;
-}
+   }
 
 /*Media query: tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {

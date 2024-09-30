@@ -65,14 +65,14 @@ The `<head>` section of the Way, the Truth & the Life Church website includes es
 
 ### **Navbar**
 
-Our website's navbar is your gateway to seamless navigation and effortless exploration of all that our Devon Rex cat community has to offer. Designed with user convenience in mind, our navbar provides intuitive access to key sections of the website, including Home, Traits, Care, Gallery, and Contact.
+The website's navbar is your gateway to seamless navigation and effortless exploration of all  community has to offer. Designed with user convenience in mind, our navbar provides intuitive access to key sections of the website, including Home, Traits, Care, Gallery, and Contact.
 | Desktop | Mobile |
 |-------------------|-------------------|
 |<img src="./assets/images/navbar-desktop.webp" alt="navbar screenshot for desktop"/>|<img src="./assets/images/navbar-mobile.webp" alt="navbar screenshot for mobile"/>|
 
 ### **Hero Section**
 
-The "Hero" section of the Devon Rex website features a prominent title and a subtitle. It includes a visually engaging image of a Devon Rex cat, which immediately captures visitors' attention. This section provides a quick overview of the site's content and purpose, encouraging visitors to explore more about the breed through an inviting call to action.
+The "Hero" section of the Way, the Truth and the Life Church website features a prominent title and a subtitle. It includes a visually engaging image of a Devon Rex cat, which immediately captures visitors' attention. This section provides a quick overview of the site's content and purpose, encouraging visitors to explore more about the breed through an inviting call to action.
 | Desktop | Mobile |
 |-------------------|-------------------|
 |<img src="./assets/images/hero-section-desktop.webp" alt="hero section screenshot for desktop"/>|<img src="./assets/images/hero-section-mobile.webp" alt="hero section screenshot for mobile"/>|

@@ -35,7 +35,7 @@ header {
   z-index: 99;
   width: 100%;
   box-shadow: 0 2px 2px #3a3a3a;
-  display: grid;
+  display: flex;
   justify-content: space-between;
   align-items: baseline;
 }
@@ -45,21 +45,18 @@ header a {
   color: inherit;
 }
 
-header i {
-  visibility: hidden;
-}
-
 #menu {
   font-size: 110%;
   letter-spacing: 4px;
   list-style-type: none;
+  visibility: hidden;
 }
 
 #menu>li {
   margin-bottom: 1em;
 }
 
-#menu li.active {
+#menu .active {
   border-bottom: 1px solid #3a3a3a;
 }
 
@@ -73,12 +70,16 @@ nav {
   box-shadow: 0 2px 2px #3a3a3a;
   display: none;
   top: 100%;
-  visibility: hidden;
+
 }
 
 /*Nav toggle*/
 #nav-switch:checked~nav {
   display: block;
+}
+
+#nav-switch {
+  display: none;
 }
 
 .nav-switch-label {
@@ -122,6 +123,8 @@ main {
   color: #ffffff;
   background-color: #2D3319;
   border-radius: 2px;
+  margin: 25px;
+  padding: 10px 20px;
 }
 
 #appreciation h2 {
