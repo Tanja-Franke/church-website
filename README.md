@@ -28,10 +28,11 @@ This project was initiated to give the Way, the Truth & the Life Church an onlin
 Our target audience includes non-believers, new-believers as well as mature-believers and among them members of the church. Basically anyone interested in Christian faith and looking for a church they want to join.
 
 ## **Design**
-
+The Design was inspired by the Code Institute´s project "Love Running" and by observing other church. There have been a lot of ideas around the design. But lack of coding-language knowledge needed to fulfil the design intended have been affecting the actual design. The 
 ### **Colours**
 
 ![Coolors Palette](assets/images/churchweb.png)
+![Coolors Palette](assets/images/churchweb_second.png)
 
 ### **Typography**
 
@@ -68,35 +69,35 @@ The `<head>` section of the Way, the Truth & the Life Church website includes es
 The website's navbar is your gateway to seamless navigation and effortless exploration of all  community has to offer. Designed with user convenience in mind, our navbar provides intuitive access to key sections of the website, including Home, Traits, Care, Gallery, and Contact.
 | Desktop | Mobile |
 |-------------------|-------------------|
-|<img src="./assets/images/navbar-desktop.webp" alt="navbar screenshot for desktop"/>|<img src="./assets/images/navbar-mobile.webp" alt="navbar screenshot for mobile"/>|
+|<img src="assets/images/navbar_desktop.PNG" alt="navbar screenshot for desktop"/>|<img src="assets/images/unfolded_navbar_iphone14.png" alt="navbar screenshot for mobile"/>|
 
 ### **Hero Section**
 
-The "Hero" section of the Way, the Truth and the Life Church website features a prominent title and a subtitle. It includes a visually engaging image of a Devon Rex cat, which immediately captures visitors' attention. This section provides a quick overview of the site's content and purpose, encouraging visitors to explore more about the breed through an inviting call to action.
+The "Hero" section of the Way, the Truth and the Life Church website features a prominent hero-image and a textbox. It includes a visually engaging image of the Bible and a cross, which immediately gives visitors' clue that it is a christian website. This section supports the name of the church by the bible verse indicated in the textbox.
 | Desktop | Mobile |
 |-------------------|-------------------|
-|<img src="./assets/images/hero-section-desktop.webp" alt="hero section screenshot for desktop"/>|<img src="./assets/images/hero-section-mobile.webp" alt="hero section screenshot for mobile"/>|
+|<img src="assets/images/hero_desktop.PNG" alt="hero section screenshot for desktop"/>|<img src="assets/images/hero_iphone14.png" alt="hero section screenshot for mobile"/>|
 
 ### **Chosen Section**
 
 The "Chosen" section of the Way, the Truth & the Life Church website provides a call for action and information about what users will find on this website.
 | Desktop | Mobile |
 |-------------------|-------------------|
-|<img src="./assets/images/history-section-desktop.webp" alt="history section screenshot for desktop"/>|<img src="./assets/images/history-section-mobile.webp" alt="history section screenshot for mobile"/>|
+|<img src="assets/images/chosen_section_desktop.PNG" alt="chosen section screenshot for desktop"/>|<img src="assets/images/chosen_section_iphone14.png" alt="chosen section screenshot for mobile"/>|
 
 ### **Arguments Section**
 
 The "Arguments" section is buildt to provide visitors with an overall insight of why they should believe in Jesus. Reasons are divided into four sections proving the belonging Bible-verses to support the arguments.
 | Desktop | Mobile |
 |-------------------|-------------------|
-|<img src="./assets/images/traits-section-desktop.webp" alt="traits section screenshot for desktop"/>|<img src="./assets/images/traits-section-mobile.webp" alt="traits section screenshot for mobile"/>|
+|<img src="" alt="traits section screenshot for desktop"/>|<img src="" alt="traits section screenshot for mobile"/>|
 
 ### **Service Time Section**
 
-The "Service-time" section is meticulously curated to provide visitors with date, time and location for a specific event. The section's design prioritizes user-friendliness, featuring clear headings and organized sub-sections for easy navigation.
+The "Service-time" section is pisplaying to visitors date, time and location for a specific event. The section's design prioritizes user-friendliness, featuring clear title (event) and appropriate icons.
 | Desktop | Mobile |
 |-------------------|-------------------|
-|<img src="./assets/images/care-section-desktop.webp" alt="care section screenshot for desktop"/>|<img src="./assets/images/care-section-mobile.webp" alt="care section screenshot for mobile"/>|
+|<img src="" alt="service time section screenshot for desktop"/>|<img src="" alt="service time section section screenshot for mobile"/>|
 
 
 ### **Footer Section**

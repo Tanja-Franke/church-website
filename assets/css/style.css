@@ -420,7 +420,11 @@ footer{
 #copy {
     float: right;
     color: #2d3319;
+    font-size: xx-small;
    }
+#copy a{
+    font-size: medium;
+}
 
 /*Media query: tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
