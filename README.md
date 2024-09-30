@@ -1,5 +1,6 @@
 #
-# The Way, the Truth & the Life Church <img src="assets/images/twtttlc.png" alt="the Way, the Truth & the Life Church" height="50">
+# The Way, the Truth & the Life Church 
+<img src="assets/images/church_logo.webp" alt="the Way, the Truth & the Life Church" height="50">
 
 ## Description
 
@@ -16,7 +17,7 @@ This project was initiated to give the Way, the Truth & the Life Church an onlin
 
 ### **Project Goals**
 
-1. **Educational Resource:** To offer comprehensive knowledge abou the christian faith for non-believers as well as believers.
+1. **Educational Resource:** To offer comprehensive knowledge about the christian faith for non-believers as well as believers.
 
 2. **Community Engagement:** To foster a vibrant online community where believers can connect, share experiences, and engage with each other by joining online sevices or prayer meetings as well as by sending praying requests.
 
@@ -27,9 +28,7 @@ This project was initiated to give the Way, the Truth & the Life Church an onlin
 Our target audience includes non-believers, new-believers as well as mature-believers and among them members of the church. Basically anyone interested in Christian faith and looking for a church they want to join.
 
 ## **Design**
-![Wireframe landing-page](assets/images/wireframe-landing.png)
-![Wireframe about-page](assets/images/wireframe-about.png)
-![Wireframe prayer-request-page](assets/images/wireframe-prayerrequest.png)
+
 ### **Colours**
 
 ![Coolors Palette](assets/images/churchweb.png)
@@ -43,30 +42,20 @@ Our target audience includes non-believers, new-believers as well as mature-beli
 
 ### **Wireframe and Prototype**
 
-### [Balsamiq](https://balsamiq.com/) wireframe:
+### [Mockflow](https://mockflow.com//) wireframe:
 
 <details>
-<summary> Open for desktop wireframe </summary>
+<summary> Open for initial wireframe -landing page </summary>
 
-![balsamiq wireframe](/assets/images/balsamiq-wireframe.webp)
+![mockflow wireframe](assets/images/wireframe-landing.png)
 
 </details>
 
-### [Figma](https://www.figma.com/) prototype:
 
-<details>
-<summary> Open for desktop prototype </summary>
 
-![figma prototype](./assets/images/figma-desktop-prototype.webp)
 
-</details>
 
-<details>
-<summary> Open for mobile prototype </summary>
 
-![figma prototype](./assets/images/figma-mobile-prototype.webp)
-
-</details>
 
 ## Features
 
@@ -109,12 +98,6 @@ The "Service-time" section is meticulously curated to provide visitors with date
 |-------------------|-------------------|
 |<img src="./assets/images/care-section-desktop.webp" alt="care section screenshot for desktop"/>|<img src="./assets/images/care-section-mobile.webp" alt="care section screenshot for mobile"/>|
 
-### **About Section**
-
-The "About" section is a visual celebration of the unique charm and personality of Devon Rex cats. A curated collection of photographs capturing the playful antics, expressive faces, and graceful movements of these enchanting feline companions. Each image is enhanced with a hover effect, allowing you to interactively explore the captivating world of Devon Rex cats. From adorable kittenhood to majestic adulthood, every picture offers a glimpse into the captivating world of Devon Rex cats, showcasing their distinctive curly coats, large ears, and expressive eyes.
-| Desktop | Mobile |
-|-------------------|-------------------|
-|<img src="./assets/images/gallery-section-desktop.webp" alt="gallery section screenshot for desktop"/>|<img src="./assets/images/gallery-section-mobile.webp" alt="gallery section screenshot for mobile"/>|
 
 ### **Footer Section**
 
@@ -122,6 +105,13 @@ The "Footer" section, you'll find quick access to essential resources and inform
 | Desktop | Mobile |
 |-------------------|-------------------|
 |<img src="./assets/images/footer-section-desktop.webp" alt="gallery section screenshot for desktop"/>|<img src="./assets/images/footer-section-mobile.webp" alt="gallery section screenshot for mobile"/>|
+
+### **About Page**
+
+The subscriber page is a thank-you to new subscribers, complete with a warm message, a button to return to the homepage, and a Devon Rex image. It's a cozy corner of our website dedicated to welcoming new members to our Devon Rex cat community.
+| Desktop | Mobile |
+|-------------------|-------------------|
+|<img src="./assets/images/subscriber-desktop.webp" alt="subscriber page screenshot for desktop"/>|<img src="./assets/images/subscriber-mobile.webp" alt="subscriber page screenshot for mobile"/>|
 
 ### **Prayer Request Page**
 
@@ -263,7 +253,7 @@ The WAVE accessibility evaluation tool results can be found below.
 | Sign Up Form               | When an invalid email format is entered, a warning message should be displayed                                           | Typed "user@" in the email input in the Footer                                      | A warning message was displayed                                  | Pass      |
 | Subscribe Button           | When entering a valid email and clicking in the "subscribe" button, the user should be redirected to the subscriber page | Typed "user@gmail.com" in the email input in the Footer                             | User was directed to the subscriber page                         | Pass      |
 | Tulio Minini Link          | When clicked, should open the developer linkedin page in a new browser tab                                               | Clicked "Tulio Minini" in the Footer                                                | A new browser tab was opened with the developer linkedin profile | Pass      |
-| **Subscriber Page**        |
+| **Prayer Request Page**        |
 | Home Button                | When clicked, should be redirected to the Homepage                                                                       | Clicked Home button in the Subscriber Page                                          | Redirected to the Homepage                                       | Pass      |
 
 ### **Bugs**
