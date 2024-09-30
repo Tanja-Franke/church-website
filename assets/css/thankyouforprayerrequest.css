@@ -108,7 +108,7 @@ main {
     flex-direction: column;
 }
 #grateful {
-    background: url("../images/open-bible.webp") no-repeat center center/cover;
+    background: url("../images/bible.webp") no-repeat center center/cover;
     flex-grow: 1;
     padding: 50px 0% 0 20%;
     clear:left;

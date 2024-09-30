@@ -1,6 +1,6 @@
 #
 # The Way, the Truth & the Life Church 
-<img src="assets/images/church_logo.webp" alt="the Way, the Truth & the Life Church" height="50">
+<img src="assets/images/twtttlclogo.webp" alt="the Way, the Truth & the Life Church" height="50">
 
 ## Description
 
