@@ -2,7 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-
 /*overruling default styles added by the browser*/
 * {
     padding: 0;
@@ -109,9 +108,7 @@ main {
     width: 100%;
     background: url("../images/simplecross.webp") no-repeat center center/cover;
     position: relative;
-
 }
-
 
 #cover-text {
     background-color: #2d3319;
@@ -176,8 +173,6 @@ main {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
 }
-
-
 
 #times {
     /* Responsiveness without a media query */
@@ -322,7 +317,6 @@ main {
     font-size: 120%;
 }
 
-
 /*Prayer Request page*/
 
 #prayer {
@@ -368,7 +362,6 @@ main {
     justify-content: space-between;
     width: 100%;
 }
-
 
 .send-button {
     margin-top: 20px;
@@ -422,8 +415,6 @@ main {
     color: #fafafa;
 }
 
-
-
 /*Footer*/
 #social-networks {
     text-align: center;
@@ -445,8 +436,6 @@ main {
     float: left;
     color: #2d3319;
 }
-
-
 
 /*Media query: tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
@@ -540,10 +529,7 @@ main {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
-
-
 }
-
 
 @media screen and (min-width: 1200px) {
 
@@ -572,5 +558,4 @@ main {
     #immanuel>div {
         align-self: flex-end;
     }
-
 }
