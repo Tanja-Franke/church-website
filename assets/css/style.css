@@ -109,7 +109,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/crosscenter.webp") no-repeat center center/cover;
+    background: url("../images/crosssimple.webp") no-repeat center center/cover;
     position: relative;
 
 }
