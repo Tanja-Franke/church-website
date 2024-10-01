@@ -28,7 +28,6 @@ This project was initiated to give the Way, the Truth & the Life Church an onlin
 Our target audience includes non-believers, new-believers as well as mature-believers and among them members of the church. Basically anyone interested in Christian faith and looking for a church they want to join.
 
 ## **Design**
-The design was inspired by the Code Institute´s project "Love Running" and by observing other church websites. There have been a lot of ideas around the design. But lack of coding-language knowledge, needed to realize the design intended, have been affecting the actual design. The actual design is simple and easy to look at.
 
 ### **Colours**
 
@@ -66,8 +65,6 @@ The design was inspired by the Code Institute´s project "Love Running" and by o
 </details>
 
 
-
-
 ## Features
 
 ### **Meta Tags and Optimization**
@@ -76,14 +73,14 @@ The `<head>` section of the Way, the Truth & the Life Church website includes es
 
 ### **Navbar**
 
-The website's navbar is your gateway to seamless navigation and effortless exploration of all  community has to offer. Designed with user convenience in mind, our navbar provides intuitive access to key sections of the website, including Home, Traits, Care, Gallery, and Contact.
+The website's navbar is like a map for users to navigate through the website . It should be designed for users to conviently and effortlessly find what they are looking for. This website´s navbar provides intuitive access to key sections of the website, including Home, About, Prayer Request.
 | Desktop | Mobile |
 |-------------------|-------------------|
 |<img src="assets/images/navbar_desktop.PNG" alt="navbar screenshot for desktop"/>|<img src="assets/images/unfolded_navbar_iphone14.png" alt="navbar screenshot for mobile"/>|
 
 ### **Hero Section**
 
-The "Hero" section of the Way, the Truth and the Life Church website features a prominent hero-image and a textbox. It includes a visually engaging image of the Bible and a cross, which immediately gives visitors' clue that it is a christian website. This section supports the name of the church by the bible verse indicated in the textbox.
+The "Hero" section of the Way, the Truth and the Life Church website features a prominent hero-image and a textbox. It includes a visually engaging image of the Bible and a cross, which immediately gives visitors a hint that it is a christian website. This section supports the name of the church by the bible verse indicated in the textbox.
 | Desktop | Mobile |
 |-------------------|-------------------|
 |<img src="assets/images/hero_desktop.PNG" alt="hero section screenshot for desktop"/>|<img src="assets/images/hero_iphone14.png" alt="hero section screenshot for mobile"/>|
@@ -100,91 +97,49 @@ The "Chosen" section of the Way, the Truth & the Life Church website provides a 
 The "Arguments" section is buildt to provide visitors with an overall insight of why they should believe in Jesus. Reasons are divided into four sections proving the belonging Bible-verses to support the arguments.
 | Desktop | Mobile |
 |-------------------|-------------------|
-|<img src="" alt="traits section screenshot for desktop"/>|<img src="" alt="traits section screenshot for mobile"/>|
+|<img src="assets/images/arguments_section_desktop.PNG" alt="traits section screenshot for desktop"/>|<img src="assets/images/arguments_iphone14.png" alt="traits section screenshot for mobile"/>|
 
 ### **Service Time Section**
 
-The "Service-time" section is pisplaying to visitors date, time and location for a specific event. The section's design prioritizes user-friendliness, featuring clear title (event) and appropriate icons.
+The "Service-time" section is showing visitors date, time and location for a specific event. The section's design prioritizes user-friendliness, featuring clear title (event) and appropriate icons.
 | Desktop | Mobile |
 |-------------------|-------------------|
-|<img src="" alt="service time section screenshot for desktop"/>|<img src="" alt="service time section section screenshot for mobile"/>|
+|<img src="assets/images/service_time_section_desktop.PNG" alt="service time section screenshot for desktop"/>|<img src="assets/images/service-time-iphone14.png" alt="service time section section screenshot for mobile"/>|
 
 
 ### **Footer Section**
 
-The "Footer" section, you'll find quick access to essential resources and information to enhance your experience on our website. Stay connected with us through our social media channels, where you can join a vibrant community of Devon Rex enthusiasts, share stories, and stay updated on the latest news and events. Don't miss out on exclusive updates and tips – sign up for our newsletter to receive the latest insights and special offers directly to your inbox.
+The "Footer" section, you'll find ways to stay connected with the church through social media channels, where you can join a prayer meeting, share testimonies, and stay updated on the latest news and events. Also it is indicated that the website is created for educational purposes.
 | Desktop | Mobile |
 |-------------------|-------------------|
-|<img src="./assets/images/footer-section-desktop.webp" alt="gallery section screenshot for desktop"/>|<img src="./assets/images/footer-section-mobile.webp" alt="gallery section screenshot for mobile"/>|
+|<img src="assets/images/footer-desktop.PNG" alt="footer section screenshot for desktop"/>|<img src="assets/images/footer_iphone14.png" alt="footer section screenshot for mobile"/>|
 
 ### **About Page**
 
-The subscriber page is a thank-you to new subscribers, complete with a warm message, a button to return to the homepage, and a Devon Rex image. It's a cozy corner of our website dedicated to welcoming new members to our Devon Rex cat community.
+Visitors can learn more about the Way, the Truth & the Life Church its beliefs, mission and vision. In the beginning there is a hero section with the title of the page and at the end users can read about who the pastor of the church is. 
 | Desktop | Mobile |
 |-------------------|-------------------|
-|<img src="./assets/images/subscriber-desktop.webp" alt="subscriber page screenshot for desktop"/>|<img src="./assets/images/subscriber-mobile.webp" alt="subscriber page screenshot for mobile"/>|
+|<img src="" alt="about page screenshot for desktop"/>|<img src="" alt="about page screenshot for mobile"/>|
 
 ### **Prayer Request Page**
 
-The subscriber page is a thank-you to new subscribers, complete with a warm message, a button to return to the homepage, and a Devon Rex image. It's a cozy corner of our website dedicated to welcoming new members to our Devon Rex cat community.
+The Prayer Request page 
 | Desktop | Mobile |
 |-------------------|-------------------|
-|<img src="./assets/images/subscriber-desktop.webp" alt="subscriber page screenshot for desktop"/>|<img src="./assets/images/subscriber-mobile.webp" alt="subscriber page screenshot for mobile"/>|
+|<img src="" alt="prayer request page screenshot for desktop"/>|<img src="" alt="prayer request page screenshot for mobile"/>|
 
-## BEM Methodology
+### **Thank You for Prayer Request Page**
 
-BEM (Block, Element, Modifier) is a popular naming convention for classes in HTML and CSS, originally developed by Yandex. It is designed to create reusable, modular, and maintainable code.
+The Thank you for Prayer Request page is a thank-you to users who submitted a prayer request, complete with a suitable Bible verse, a button to return to the homepage, and a background image showing an open bible. It's an encouraging part of our website dedicated to those needing prayers.
+| Desktop | Mobile |
+|-------------------|-------------------|
+|<img src="" alt="thank you for prayer request page screenshot for desktop"/>|<img src="" alt="thank you for prayer request page screenshot for mobile"/>|
 
-### BEM Structure
 
-BEM divides the user interface into independent blocks, which can be reused across different parts of the application. The naming convention follows a specific structure:
+## Naming Convention
 
-- **Block**: The top-level component or a standalone entity that is meaningful on its own.
-  - Example: `header`, `container`, `menu`
-- **Element**: A part of a block that performs a certain function and has no standalone meaning.
-  - Example: `header__title`, `menu__item`
-- **Modifier**: A flag on a block or an element that changes its appearance or behavior.
-  - Example: `menu__item--active`, `header--large`
-
-### Naming Convention
-
-The BEM naming convention uses a double underscore (`__`) to separate elements from their block and a double hyphen (`--`) to separate modifiers from blocks or elements.
-
-- **Block**: `block-name`
-- **Element**: `block-name__element-name`
-- **Modifier**: `block-name--modifier-name` or `block-name__element-name--modifier-name`
-
-### Example
-
-```html
-<div class="menu">
-  <ul class="menu__list">
-    <li class="menu__item menu__item--active">Home</li>
-    <li class="menu__item">About</li>
-    <li class="menu__item">Contact</li>
-  </ul>
-</div>
-```
-
-In this example:
-
-- `menu` is the block.
-- `menu__list` and `menu__item` are elements of the menu block.
-- `menu__item--active` is a modifier that changes the appearance of the `menu__item` element.
-
-### Benefits of BEM
-
-1. **Clarity and Readability:** BEM makes it clear what each class refers to by looking at its name. It is easy to identify whether a class represents a block, an element, or a modifier.
-
-2. **Modularity:** BEM promotes the creation of independent components. Each block is standalone, making it easier to reuse and maintain.
-
-3. **Avoids Naming Conflicts:** The structured naming convention helps avoid class name conflicts, which are common in larger projects with many contributors.
-
-4. **Improved Maintainability:** With BEM, the CSS and HTML structure is more organized, making it easier to understand, debug, and modify the code.
-
-5. **Enhanced Scalability**: BEM's approach is particularly useful for large projects as it provides a consistent methodology for naming and structuring classes.
-
-6. **Better Collaboration:** The clarity and structure provided by BEM make it easier for multiple developers to work on the same project without confusion.
+The naming convention of this project uses name related to the website content such as in the example below. Showing the argument section using the name of jesus such as immanuel or blessings (as a result of knowing jesus).
+![example of code](assets/images/naming.PNG)
 
 ## Testing
 
@@ -194,82 +149,78 @@ Responsiveness has been checked and adjusted in Chrome Dev Tools and the site ha
 
 - Safari
 
-- Firefox
 
 ### **HTML Validation (Homepage)**
 
 All HTML code has been run through the [W3C - HTML](https://validator.w3.org/) validator. Results can be found below.
-![w3c html validation](./assets/images/wc3-html-validator.webp)
+![w3c html validation](assets/images/htmlvalidator-index.PNG)
 
-### **HTML Validation (Subscriber Page)**
+### **HTML Validation (Thank You for Prayer Request Page)**
 
 All HTML code has been run through the [W3C - HTML](https://validator.w3.org/) validator. Results can be found below.
-![w3c html validation](./assets/images/wc3-html-validator-subs.webp)
+![w3c html validation](assets/images/htmlvalidator-thankyou.PNG)
 
 ### **CSS Validation (Homepage)**
 
 All CSS code has been run through the [W3C - CSS](https://jigsaw.w3.org/css-validator/) validator. Results can be found below.
-![w3c css validation](./assets/images/jigsaw-css-validator.webp)
+![w3c css validation](assets/images/jigsaw_stylesheet.PNG)
 
-### **CSS Validation (Subscriber Page)**
+
+### **CSS Validation (Thank You for Prayer Request Page)**
 
 All CSS code has been run through the [W3C - CSS](https://jigsaw.w3.org/css-validator/) validator. Results can be found below.
-![w3c css validation](./assets/images/jigsaw-css-validator-subs.webp)
+![w3c css validation](assets/images/jigsaw_thankyoupage_stylesheet.PNG)
 
 ### **Google Lighthouse (Homepage)**
 
 The lighthouse score results can be found below.
 
-![google lighthouse](./assets/images/google-lighthouse-test.webp)
+![google lighthouse](assets/images/lighthouse-landing-desktop.PNG)
 
-### **Google Lighthouse (Subscriber Page)**
+### **Google Lighthouse (Thank You for Prayer Request page)**
 
 The lighthouse score results can be found below.
 
-![google lighthouse](./assets/images/google-lighthouse-test-subs.webp)
+![google lighthouse](assets/images/lighthouse-thx-desktop.PNG)
 
 ### **WAVE Accessibility Evaluation (Homepage)**
 
 The WAVE accessibility evaluation tool results can be found below.
 
-![wave accessibility evaluation](./assets/images/wave-accessibility.webp)
+![wave accessibility evaluation](assets/images/Wave-homepage.PNG)
 
-### **WAVE Accessibility Evaluation (Subscriber Page)**
+### **WAVE Accessibility Evaluation (Thank You for Prayer Request Page)**
 
 The WAVE accessibility evaluation tool results can be found below.
 
-![wave accessibility evaluation](./assets/images/wave-accessibility-subs.webp)
+![wave accessibility evaluation](assets/images/Wave-thankyoupage.PNG)
 
 ### **Manual Testing**
 
 | Features                   | Expected Outcome                                                                                                         | Test Performed                                                                      | Results                                                          | Pass/Fail |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- | ---------------------------------------------------------------- | --------- |
 | **Navbar**                 |
-| Devon Rex                  | When clicked, the page should scroll up to the top of the page                                                           | Clicked "Devon Rex" in the Navbar                                                   | Page scrolled up to the top of the page                          | Pass      |
-| History                    | When clicked, the page should scroll up or down to the History section                                                   | Clicked "History" in the Navbar                                                     | Page scrolled up and down to the History section                 | Pass      |
-| Traits                     | When clicked, the page should scroll up or down to the Traits section                                                    | Clicked "Traits" in the Navbar                                                      | Page scrolled up and down to the Traits section                  | Pass      |
-| Care                       | When clicked, the page should scroll up or down to the Care section                                                      | Clicked "Care" in the Navbar                                                        | Page scrolled up and down to the Care section                    | Pass      |
-| Gallery                    | When clicked, the page should scroll up or down to the Gallery section                                                   | Clicked "Gallery" in the Navbar                                                     | Page scrolled up and down to the Gallery section                 | Pass      |
+| The Way, the Truth & the Life Church                 | When clicked, the page should scroll up to the top of the page                                                           | Clicked "The Way, the Truth & the Life Church" in the Navbar                                                   | Page scrolled up to the top of the page  or return to landing page                        | Pass      |
+
+
+
 | Contact                    | When clicked, the page should scroll down to the Footer                                                                  | Clicked "Contact" in the Navbar                                                     | Page scrolled down to the Footer                                 | Pass      |
 | Menu Icon (Mobile Version) | When clicked, the navbar menu should be displayed                                                                        | Clicked Menu Icon (Hamburger) in the Navbar in the mobile version                   | Navbar menu was displayed                                        | Pass      |
 | Menu Icon (Mobile Version) | If the Navbar menu is open, when clicked, the navbar menu should close                                                   | Clicked Menu Icon (Hamburger) while the navbar menu was open, in the mobile version | Navbar menu was closed                                           | Pass      |
-| **Hero Section**  |
-| CTA Button                   | When clicked, the page should scroll down to the History section                                                   | Clicked "Want to know more? Click here!" button in the hero section                                                    | Page scrolled down to the History section                 | Pass      |
+
 | **Footer**                 |
-| Devon Rex                  | When clicked, the page should scroll up to the top of the page                                                           | Clicked "Devon Rex" in the Footer                                                   | Page scrolled up to the top of the page                          | Pass      |
 | Instagram Icon             | When clicked, the instagram website should open in a new browser tab                                                     | Clicked Instagram icon in the Footer                                                | A new browser tab was opened with Instagram web page             | Pass      |
 | X / Twitter Icon           | When clicked, the X / Twitter website should open in a new browser tab                                                   | Clicked X icon in the Footer                                                        | A new browser tab was opened with X / Twitter web page           | Pass      |
 | Facebook Icon              | When clicked, the Facebook website should open in a new browser tab                                                      | Clicked Facebook icon in the Footer                                                 | A new browser tab was opened with Facebook web page              | Pass      |
-| Envelope Icon              | When clicked, the default email app should open in a new window                                                          | Clicked Envelope icon in the Footer                                                 | A new window was opened with the default email provider app      | Pass      |
-| Sign Up Form               | When an invalid email format is entered, a warning message should be displayed                                           | Typed "user@" in the email input in the Footer                                      | A warning message was displayed                                  | Pass      |
-| Subscribe Button           | When entering a valid email and clicking in the "subscribe" button, the user should be redirected to the subscriber page | Typed "user@gmail.com" in the email input in the Footer                             | User was directed to the subscriber page                         | Pass      |
-| Tulio Minini Link          | When clicked, should open the developer linkedin page in a new browser tab                                               | Clicked "Tulio Minini" in the Footer                                                | A new browser tab was opened with the developer linkedin profile | Pass      |
-| **Prayer Request Page**        |
-| Home Button                | When clicked, should be redirected to the Homepage                                                                       | Clicked Home button in the Subscriber Page                                          | Redirected to the Homepage                                       | Pass      |
 
+
+| LinkedIn icon          | When clicked, should open the developer linkedin page in a new browser tab                                               | Clicked icon in the Footer                                                | A new browser tab was opened with the developer linkedin profile | Pass      |
+| **Prayer Request Page**        |
+| Prayer Request Form               | When an invalid email format is entered, a warning message should be displayed                                           | Typed "user@" in the email input in the Footer                                      | A warning message was displayed                                  | Pass      |
+| Send Prayer Button           | When entering a valid email and clicking in the "Send Prayer" button, the user should be redirected to the thank you for prayer request page | Typed "user@gmail.com" in the email input in the Footer                             | User was directed to the thank you for prayer request page                         | Pass      |
 ### **Bugs**
 
-### 1. Incorrect File Paths for CSS and Images
+### 1. Incorrect File Paths for favicons
 
 **Description:**  
 When the project was first deployed, the links to the CSS files and images were not working. This issue did not occur in the local development environment but only after deployment.
@@ -277,76 +228,10 @@ When the project was first deployed, the links to the CSS files and images were 
 <details>
 <summary> Click to see images </summary>
 
-![bug two](./assets/images/bug-two.webp)
-![bug one](./assets/images/bug-one.webp)
+![bug two]()
+![bug one]()
 
 </details>
-
-**Steps to Reproduce:**
-
-1. Deploy the project to a web server.
-2. Attempt to load the web page.
-3. Notice that the CSS styles and images do not load.
-
-**Expected Behavior:**  
-The web page should correctly load all CSS styles and images as it does in the local development environment.
-
-**Actual Behavior:**  
-The web page fails to load CSS styles and images, resulting in an unstyled page with broken image links.
-
-**Cause:**  
-The issue was caused by the use of absolute file paths for the CSS and image links, which worked locally but not in the deployed environment.
-
-**Solution:**  
-Replace absolute file paths with relative file paths in the HTML files. For example, change paths from `/path/to/file.css` to `./path/to/file.css` or `path/to/file.css`.
-
-**Example:**
-
-Before:
-
-```html
-<link rel="stylesheet" href="/assets/css/style.css" />
-<img src="/assets/images/cat-hero.webp" alt="yellow devon rex cat sitting" />
-```
-
-After:
-
-```html
-<link rel="stylesheet" href="assets/css/style.css" />
-<img src="assets/images/cat-hero.webp" alt="yellow devon rex cat sitting" />
-```
-
-### 2. WAVE Image Not Appearing in README.md
-
-**Description:**  
-An image in the `README.md` file was not appearing because the file path was too long. This issue was resolved by shortening the file name.
-
-<details>
-<summary> Click to see image </summary>
-
-![bug three](./assets/images/bug-three.webp)
-
-</details>
-
-**Cause:**  
-The issue was caused by the file path being too long. Some Markdown parsers or rendering engines have limitations on the length of file paths they can handle. When the file path exceeds these limitations, the parser may fail to properly render the image, resulting in it not being displayed in the `README.md` file.
-
-**Solution:**  
-Shorten the file name to ensure the image appears correctly in the `README.md` file.
-
-**Example:**
-
-Before:
-
-```markdown
-![wave accessibility evaluation](./assets/images/wave-accessibility-evaluation.webp)
-```
-
-After:
-
-```markdown
-![wave accessibility evaluation](./assets/images/wave-accessibility.webp)
-```
 
 ### **Test Final Review**
 
@@ -385,13 +270,6 @@ This website is developed using the following tools:
 
 **Google Lighthouse**: An open-source, automated tool for improving the quality of web pages. Lighthouse audits performance, accessibility, SEO, and other best practices, providing insights and recommendations for improvement.
 
-**Prettier**: A code formatter that enforces a consistent style by parsing your code and re-printing it with its rules. Prettier helps maintain clean and readable code throughout the project.
-
-**Birme**: An online bulk image resizing tool. Birme is used to resize images quickly and efficiently, ensuring that they are optimized for the web without compromising on quality.
-
-**LinkedIn Post Inspector**: Post Inspector can help you identify the data missing on your page, and what you need to add for your content to have better previews in posts.
-
-
 **Favicon.io**: A tool that simplifies the creation of website favicons, allowing users to easily generate icons that represent their brand across different platforms and devices.
 
 Each of these tools plays a crucial role in the development, deployment, and maintenance of the website, contributing to its overall quality and user experience.
@@ -402,19 +280,17 @@ This website is deployed using Git pages.
 
 ### Deployment Steps
 
-1. **Log in to Netlify:** Navigate to the [Netlify website](https://www.netlify.com/) and log in to your account.
+1. **Log in to Git Hub:** Navigate to the [Github website](https://github.com/) and log in to your account.
 
-2. **Create New Site:** Once logged in, click on the "New site from Git" button.
+2. **In the Github page go to your repository:** Once logged in, the dashboard will appear and on the lefthand side there are your top repository.
 
-3. **Connect to GitHub:** Choose GitHub as your Git provider and authorize Netlify to access your repositories.
+3. **Select Repository:** Select the repository for website to be deployed, in this case, "twtttl-church"
 
-4. **Select Repository:** Select the repository for your website, in this case, "The Force Awaken."
+4. 
 
-5. **Configure Settings:** Netlify will automatically detect your build settings, but you may need to adjust them if necessary.
-
-6. **Deploy Site:** Once configured, click on the "Deploy site" button. Netlify will start building and deploying your site automatically.
-
-7. **Live Site:** After the deployment process is complete, Netlify will provide you with a unique URL for your live site. You can access your live site by visiting this URL.
+5. **Configure Settings:** 
+6. **Deploy Site:** O
+7. **Live Site:** After the deployment process is complete, GitHub will provide you with a unique URL for your live site. You can access your live site by visiting this URL.[Live website](https://tanja-franke.github.io/twtttl-church/)
 
 ## Credits
 
@@ -430,55 +306,8 @@ A special thank you to my mentor [Harry Dhillon](https://www.linkedin.com/in/har
 
 
 
-
-
-
-## Features 
-
-
-
-### Existing Features
-
-- __Navigation Bar__
-
-
-
-- __The landing page image__
-
-
-- __About Us Section__
-
-
-
-- __Service Times section__
-
-
-
-- __The Footer__ 
-
-
-
-
-
-- __The Prayer Request Page__
-
- 
-
-
-
 ### Features Left to Implement
 
-
-## Testing 
-
-
-
-### Validator Testing 
-
-- HTML
- 
-- CSS
- 
 
 ### Unfixed Bugs
 
