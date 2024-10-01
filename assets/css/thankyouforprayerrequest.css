@@ -95,6 +95,7 @@ main {
   margin-top: 47px;
   display: flex;
   flex-direction: column;
+  box-shadow: 0 2px 2px #3a3a3a;
 }
 
 #grateful {
@@ -142,21 +143,22 @@ main {
 /*Footer*/
 footer {
   background-color: #cacfd6;
-  margin:0 0;
+  margin: 0 0;
   padding: 0 2rem;
- }
+}
 
 #social-networks {
   text-align: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   list-style-type: none;
-  }
+}
 
 #social-networks li {
   font-size: 100%;
   padding: 15px 20px;
 }
+
 #copy {
   float: right;
   color: #3a3a3a;
