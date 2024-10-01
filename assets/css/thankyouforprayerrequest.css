@@ -143,7 +143,7 @@ main {
 footer {
   background-color: #cacfd6;
   margin:0 0;
-  padding 0 2rem;
+  padding: 0 2rem;
  }
 
 #social-networks {
@@ -154,7 +154,7 @@ footer {
   }
 
 #social-networks li {
-  font-size: 50%;
+  font-size: 100%;
   padding: 15px 20px;
 }
 #copy {
