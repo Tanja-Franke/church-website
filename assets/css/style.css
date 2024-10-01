@@ -113,7 +113,6 @@ main {
     min-height: 200px;
     padding-top: 40px;
     padding-left: 10px;
-
 }
 
 #cover-text>h2,
@@ -132,18 +131,20 @@ main {
     align-items: baseline;
     text-align: center;
     font-size: 140%;
-    }
+}
 
 #chosen>h2 {
     margin-bottom: 20px;
     text-align: center;
     font-size: 150%;
 }
+
 #special {
     border: solid;
     border-radius: 5px;
     display: inline-block;
 }
+
 /*Arguments section (inspired by the love running project)*/
 #arguments {
     width: 90%;
@@ -161,7 +162,8 @@ main {
     line-height: 20px;
     margin-bottom: 20px;
 }
-#learn{
+
+#learn {
     color: #3a3a3a;
     text-decoration: none;
 }
@@ -211,13 +213,12 @@ main {
     bottom: 30px;
     width: 80%;
     min-height: 200px;
-   }
+}
 
 #aboutcover>h2 {
     color: #ffffff;
     text-align: center;
     font-size: 180%;
-
 }
 
 /* Who we are Section*/
@@ -230,22 +231,20 @@ main {
     align-items: center;
     text-align: center;
     font-size: 140%;
-  }
+}
 
 #church>h2 {
     margin-bottom: 20px;
     text-align: center;
     font-size: 280%;
-
 }
 
 #profile {
-    text-align: left;
-    list-style-position: inside;
-    text-align-last: auto;
+    text-align: center;
     list-style-type: none;
     text-wrap: balance;
-  }
+    padding: 1rem 2rem;
+}
 
 /* Beliefs, Mission & Vision section */
 #bmv {
@@ -269,7 +268,7 @@ main {
 /* Pastor Section */
 #pastor {
     background-color: #B0C0BC;
-    padding: 0 1rem;
+    padding: 1rem 2rem;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
@@ -400,16 +399,17 @@ main {
 }
 
 /*Footer*/
-footer{
+footer {
     background-color: #cacfd6;
 }
+
 #social-networks {
     text-align: center;
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
- }
+}
 
 #social-networks li {
     font-size: 150%;
@@ -421,8 +421,9 @@ footer{
     float: right;
     color: #2d3319;
     font-size: xx-small;
-   }
-#copy a{
+}
+
+#copy a {
     font-size: medium;
 }
 
@@ -436,7 +437,6 @@ footer{
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
-
     }
 
     #menu {
@@ -452,7 +452,6 @@ footer{
     }
 
     #logo {
-
         font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
@@ -461,14 +460,12 @@ footer{
     /*Main Content*/
     main {
         margin-top: 79px;
-
     }
 
     /*Hero*/
     #cover-text {
         width: 300px;
         right: 50px;
-
     }
 
     /* Arguments section */
@@ -484,11 +481,11 @@ footer{
         width: 75%;
     }
 
-    #jesus>div {
-        text-align: end;
-        align-self: flex-end;
-    }
-
+    #jesus>div,
+    {
+    text-align: end;
+    align-self: flex-end;
+}
 }
 
 /* Prayer Request page */
@@ -530,10 +527,6 @@ footer{
 
     #blessings>div {
         flex: 1;
-    }
-
-    #blessings-image {
-        order: 0
     }
 
     #jesus {
