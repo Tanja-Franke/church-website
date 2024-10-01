@@ -11,7 +11,7 @@
 
 /* General Styles*/
 body {
-    min-height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     color: #3a3a3a;
@@ -185,7 +185,7 @@ main {
 
 #times div {
     color: #fafafa;
-    background-color: #453F3C;
+    background-color: #2d3319;
     padding: 15px;
     text-align: center;
     flex-basis: 200px;
@@ -401,26 +401,24 @@ main {
 /*Footer*/
 footer {
     background-color: #cacfd6;
-}
+    max-height: 5px;
+   }
 
 #social-networks {
     text-align: center;
-    padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
 }
 
 #social-networks li {
-    font-size: 150%;
-    padding: 5%;
-    color: #2d3319;
+    font-size: 50%;
+    padding: 15px 20px;
 }
-
 #copy {
     float: right;
-    color: #2d3319;
-    font-size: xx-small;
+    color: #3a3a3a;
+    font-size: small;
 }
 
 #copy a {

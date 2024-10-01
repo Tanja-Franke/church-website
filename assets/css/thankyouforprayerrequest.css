@@ -140,23 +140,31 @@ main {
 }
 
 /*Footer*/
+footer {
+  background-color: #cacfd6;
+  margin:0 0;
+  padding 0 2rem;
+ }
+
 #social-networks {
   text-align: center;
-  padding: 20px 0;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   list-style-type: none;
-}
+  }
 
 #social-networks li {
-  font-size: 160%;
-  padding: 5%;
-  color: #2d3319;
+  font-size: 50%;
+  padding: 15px 20px;
 }
-
 #copy {
   float: right;
-  color: #2d3319;
+  color: #3a3a3a;
+  font-size: small;
+}
+
+#copy a {
+  font-size: medium;
 }
 
 /*Media query: tablets and larger (768px and up)*/
