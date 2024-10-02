@@ -196,6 +196,15 @@ The Thank you for Prayer Request page is a thank-you to users who submitted a pr
 |-------------------|-------------------|
 |<img src="assets/readmeimages/thankyou-desktop.PNG" alt="thank you for prayer request page screenshot for desktop"/>|<img src="assets/readmeimages/thankyoupage-iphone14.png" alt="thank you for prayer request page screenshot for mobile"/>|
 
+## Future features
+- Resource page, where user can listen or watch last sermons, download prayers as a pdf
+- An Interactive hero-image
+- Donation button linke to PayPal
+- A blog page
+- A log in section for members and pastors to add materials/
+
+[Back to top] (# The-Way-,-the-Truth-&-the-Life-Church)
+
 ## Naming Convention
 
 The naming convention of this project uses name related to the website content such as in the example below. Showing the argument section using the name of Jesus and Immanuel or blessings (because of knowing Jesus).
