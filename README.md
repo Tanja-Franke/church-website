@@ -367,10 +367,10 @@ This website is deployed using Git pages.
 4. **Go to the Settings tab:** Click on the setting tab and a new interface will open
 5. **Select Pages:** On the left-hand side you will find Pages nested in the Code and automation section, 
 6. **Configure Settings:** Source needs to be set to `Deploy from Branch’ the Main branch should be selected and the folder needs to be set to /root
-7. ** Deploy website:** By clicking Save under the branch, your website will be deployed
-8.**Refresh Repository:** Return to the Code tab. After a few minutes you can refresh your repository.
-9.**View the deployment:** Go to ´github-pages’ on the right-hand side and see your deployment.
-10. **Live Site:** After the deployment process is complete, GitHub will provide you with a unique URL consisting of your username and the name of your project for your live site. 
+7. **Deploy website:** By clicking Save under the branch, your website will be deployed.
+8. **Refresh Repository:** Return to the Code tab. After a few minutes you can refresh your repository.
+9. **View the deployment:** Go to ´github-pages’ on the right-hand side and see your deployment.
+10.**Live Site:** After the deployment process is complete, GitHub will provide you with a unique URL consisting of your username and the name of your project for your live site. 
 You can access my live site by visiting this URL.[Live website](https://tanja-franke.github.io/twtttl-church/)
 
 ## Credits
