@@ -96,12 +96,13 @@ Our target audience includes non-believers, new-believers as well as mature-beli
 ![mockflow wireframe](assets/readmeimages/wireframe-landing.png)
 
 </details>
+<details>
 <summary> Open for initial wireframe -About page </summary>
 
 ![mockflow wireframe](assets/readmeimages/wireframe-about.png)
 
 </details>
-
+<details>
 <summary> Open for initial wireframe -Prayer Request page </summary>
 
 ![mockflow wireframe](assets/readmeimages/wireframe-prayerrequest.png)
@@ -201,9 +202,7 @@ The Thank you for Prayer Request page is a thank-you to users who submitted a pr
 - An Interactive hero-image
 - Donation button linke to PayPal
 - A blog page
-- A log in section for members and pastors to add materials/
-
-[Back to top] (# The-Way-,-the-Truth-&-the-Life-Church)
+- A log in section for members and pastors to add materials
 
 ## Naming Convention
 
@@ -293,10 +292,13 @@ The WAVE accessibility evaluation tool results can be found below.
 
 **Description:**  
 When the project was first deployed, the favicons don´t show anymore. This issue did not occur in the local development environment but only after deployment.
-**Issue**
+
+**Issue:**
 The suggested embedded code suggested by favicon.io was used. 
-**Solution**
-Inserted the right path to favicons line.
+
+**Solution:**
+Inserted the right path to favicons line.<br/>
+
 <details>
 <summary> Click to see images </summary>
 
@@ -309,10 +311,13 @@ Inserted the right path to favicons line.
 
 **Description:**  
 When running Wave on the website an error of ‘empty form label’ comes up on the header of all pages.
-**Issue**
-There are no association of label to the hamburger button meaning no accessible name to the hamburger button
-**Solution**
-Was to give the label an attribute of aria-label.
+
+**Issue:**
+There are no association of label to the hamburger button meaning no accessible name to the hamburger button.
+
+**Solution:**
+Was to give the label an attribute of aria-label.<br/>
+
 <details>
 <summary> Click to see images </summary>
 
@@ -326,10 +331,10 @@ Was to give the label an attribute of aria-label.
 **Description:**  
 When the code was validated. An error message indicating an unallowed attribute on a 'div' element.
 
-**Issue**
+**Issue:**
 The 'action' attribute is not allowed on a 'div' element. Issue was not showing in the functionality of the website, but only as the code was going through validation.
 
-**Solution**
+**Solution:**
 Removing the 'action' attribute.
 
 <details>
@@ -380,7 +385,7 @@ This website is developed using the following tools:
 
 **Favicon.io**: A tool that simplifies the creation of website favicons, allowing users to easily generate icons that represent their brand across different platforms and devices.
 
-Each of these tools plays a crucial role in the development, deployment, and maintenance of the website, contributing to its overall quality and user experience.
+Each of these tools are significant to the coding process, deployment and maintainance of the project.
 
 ## Deployment
 
@@ -405,13 +410,12 @@ You can access my live site by visiting this URL.[Live website](https://tanja-fr
 The full-screen hero image code came originally from the Code institute´s  ‘Love Running’ project The same goes for the keyframe as well as the footer code. However, none of these remained in its original form because they have been modified and styled differently to accompany the appearance of the website.
 
 All images used in this project are credited to their respective authors. You can find the author information below.
-Credits to: pexels.com @Tara_Winstead, @Rahul_Pandit <br>
-	Unsplash.com @Ben_White
-
+Credits to: pexels.com @Tara_Winstead, @Rahul_Pandit, Unsplash.com @Ben_White
+		
 ## Acknowledgements
 
-A special thank you to my mentor [Harry Dhillon](https://www.linkedin.com/in/harry-dhillon-299b321b3/) from [Code Institute](https://codeinstitute.net/ie/), for your advice, feedback and reviewing my work!<br>
-My CI facilitator Kamil Wojciechowski and my peers from 5p for motivating, helping and giving me feedback and reviewing my work!<br>
-The Stack Overflow community for providing answers to specific coding questions.<br>
-Finally, God and my church community for allowing me to create this website for educational purposes and praying for me to have the right support and to finish this project.<br>
+A special thank you to my mentor [Harry Dhillon](https://www.linkedin.com/in/harry-dhillon-299b321b3/) from [Code Institute](https://codeinstitute.net/ie/), for your advice, feedback and reviewing my work!<br/>
+My CI facilitator Kamil Wojciechowski and my peers from 5p for motivating, helping and giving me feedback and reviewing my work!<br/>
+The Stack Overflow community for providing answers to specific coding questions.<br/>
+Finally, God and my church community for allowing me to create this website for educational purposes and praying for me to have the right support and to finish this project.<br/>
 
