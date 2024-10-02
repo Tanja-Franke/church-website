@@ -187,14 +187,14 @@ The "Pastor" section introduces the pastor and her path into faith.
 The Prayer Request page 
 | Desktop | Mobile |
 |-------------------|-------------------|
-|<img src="assets/readmeimages/prayerrequest-desktop.PNG" alt="prayer request page screenshot for desktop"/>|<img src="/workspace/twtttl-church/assets/readmeimages/prayer_request_page_iphone14.png" alt="prayer request page screenshot for mobile"/>|
+|<img src="assets/readmeimages/prayerrequest-desktop.PNG" alt="prayer request page screenshot for desktop"/>|<img src="assets/readmeimages/prayer_request_page_iphone14.png" alt="prayer request page screenshot for mobile"/>|
 
 ### **Thank You for Prayer Request Page**
 
 The Thank you for Prayer Request page is a thank-you to users who submitted a prayer request, complete with a suitable Bible verse, a button to return to the homepage, and a background image showing an open bible. It is an encouraging part of this website dedicated to those needing prayers.
 | Desktop | Mobile |
 |-------------------|-------------------|
-|<img src="" alt="thank you for prayer request page screenshot for desktop"/>|<img src="" alt="thank you for prayer request page screenshot for mobile"/>|
+|<img src="assets/readmeimages/thankyou-desktop.PNG" alt="thank you for prayer request page screenshot for desktop"/>|<img src="assets/readmeimages/thankyoupage-iphone14.png" alt="thank you for prayer request page screenshot for mobile"/>|
 
 ## Naming Convention
 
