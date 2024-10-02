@@ -6,7 +6,7 @@
 
 Learn more about Jesus, the Word of God and get to know the Way, the Truth & the Life Church.
 
-![mockup on different devices](assets/images/amiresponsivescreen.PNG)
+![mockup on different devices](assets/readmeimages/amiresponsivescreen.PNG)
 
 
 You can visit the live website [here!](https://tanja-franke.github.io/twtttl-church/)
@@ -266,8 +266,7 @@ The WAVE accessibility evaluation tool results can be found below.
 | Features                   | Expected Outcome                                                                                                         | Test Performed                                                                      | Results                                                          | Pass/Fail |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- | ---------------------------------------------------------------- | --------- |
 | **Navbar**                 |
-| The Way, The Truth & The Life Church               | When clicked, should redirected the user to the Home page                                                         | Clicked "The Way, The Truth & The Life Church" in the Navbar                                                   | Return to Homepage                          | :white_check_mark:
-     |
+| The Way, The Truth & The Life Church               | When clicked, should redirected the user to the Home page                                                         | Clicked "The Way, The Truth & The Life Church" in the Navbar                                                   | Return to Homepage                          | :white_check_mark:|
 | Home                  | When clicked,  should redirected the user to the Home page                                                                                                          | Clicked "Home" in the Navbar                                                     | Return to Homepage | :white_check_mark:      |
 | About                    | When clicked, the user will be directed to the About page                                                    | Clicked "About" in the Navbar                                                      | User is navigated to the About page                  | :white_check_mark:      |
 | Prayer Request                       | When clicked, the user will be directed to Prayer Request page| Clicked "Prayer Request" in the Navbar                                                        | User is navigated to the Prayer Request page| :white_check_mark:      |
