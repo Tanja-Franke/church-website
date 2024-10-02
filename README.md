@@ -66,7 +66,6 @@ This project was initiated to give the Way, the Truth & the Life Church an onlin
 
 - As the site operator I want to be able continuously improve the website and update information
 
-[Back to top](# The Way, the Truth & the Life Church)
 
 ### **Target Audience**
 
