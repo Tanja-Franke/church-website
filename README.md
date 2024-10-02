@@ -396,7 +396,7 @@ You can access my live site by visiting this URL.[Live website](https://tanja-fr
 The full-screen hero image code came originally from the Code institute´s  ‘Love Running’ project The same goes for the keyframe as well as the footer code. However, none of these remained in its original form because they have been modified and styled differently to accompany the appearance of the website.
 
 All images used in this project are credited to their respective authors. You can find the author information below.
-Credits to: pexels.com @Tara_Winstead, @Rahul_Pandit
+Credits to: pexels.com @Tara_Winstead, @Rahul_Pandit <br>
 	Unsplash.com @Ben_White
 
 ## Acknowledgements
