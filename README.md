@@ -66,12 +66,13 @@ This project was initiated to give the Way, the Truth & the Life Church an onlin
 
 - As the site operator I want to be able continuously improve the website and update information
 
-[Back to top](#)
+[Back to top](# The Way, the Truth & the Life Church)
 
 ### **Target Audience**
 
 Our target audience includes non-believers, new-believers as well as mature-believers and among them members of the church. Basically, anyone interested in the Christian faith and looking for a church they want to join.
-[Back to top](#)
+<br>
+[Back to top](#The Way, the Truth & the Life Church)
 ## **Design**
 
 ### **Colours**
@@ -108,8 +109,8 @@ Our target audience includes non-believers, new-believers as well as mature-beli
 ![mockflow wireframe](assets/readmeimages/wireframe-prayerrequest.png)
 
 </details>
-
-[Back to top](#)
+<br>
+[Back to top](#The Way, the Truth & the Life Church)
 
 ## Features
 
@@ -198,15 +199,16 @@ The Thank you for Prayer Request page is a thank-you to users who submitted a pr
 | Desktop | Mobile |
 |-------------------|-------------------|
 |<img src="" alt="thank you for prayer request page screenshot for desktop"/>|<img src="" alt="thank you for prayer request page screenshot for mobile"/>|
-
-[Back to top](#)
+<br>
+[Back to top](#The Way, the Truth & the Life Church)
 
 
 ## Naming Convention
 
 The naming convention of this project uses name related to the website content such as in the example below. Showing the argument section using the name of Jesus and Immanuel or blessings (because of knowing Jesus).
 ![example of code](assets/readmeimages/naming.PNG)
-[Back to top](#)
+<br>
+[Back to top](#The Way, the Truth & the Life Church)
 ## Testing
 
 Responsiveness has been checked and adjusted in Chrome Dev Tools and the site has been viewed on mobiles and desktop without issues and the following browsers:
@@ -321,7 +323,8 @@ Was to give the label an attribute of aria-label.
 ### **Test Final Review**
 
 The testing procedures have been executed, meeting all specified criteria. Results have been thoroughly documented, and any identified issues have been addressed. Post-testing, the website has been confirmed to be fully functional and accessible.
-[Back to top](#)
+<br>
+[Back to top](#The Way, the Truth & the Life Church)
 ## Tech Stack
 
 This website is developed using the following technologies:
@@ -358,7 +361,8 @@ This website is developed using the following tools:
 **Favicon.io**: A tool that simplifies the creation of website favicons, allowing users to easily generate icons that represent their brand across different platforms and devices.
 
 Each of these tools plays a crucial role in the development, deployment, and maintenance of the website, contributing to its overall quality and user experience.
-[Back to top](#)
+<br>
+[Back to top](#The Way, the Truth & the Life Church)
 ## Deployment
 
 This website is deployed using Git pages.
@@ -391,4 +395,5 @@ A special thank you to my mentor [Harry Dhillon](https://www.linkedin.com/in/har
 My CI facilitator Kamil Wojciechowski and my peers from 5p for helping and giving me feedback and reviewing my work!
 The Stack Overflow community for providing answers to specific coding questions.
 Finally, God and my church community for allowing me to create this website for educational purposes and praying for me to have the right support and to finish this project.
-[Back to top](#)
+<br>
+[Back to top](#The Way, the Truth & the Life Church)
