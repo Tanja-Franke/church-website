@@ -386,5 +386,4 @@ A special thank you to my mentor [Harry Dhillon](https://www.linkedin.com/in/har
 My CI facilitator Kamil Wojciechowski and my peers from 5p for helping and giving me feedback and reviewing my work!
 The Stack Overflow community for providing answers to specific coding questions.
 Finally, God and my church community for allowing me to create this website for educational purposes and praying for me to have the right support and to finish this project.
-<br>
-[Back to top](# The Way, the Truth & the Life Church)
+
