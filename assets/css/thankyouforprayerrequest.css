@@ -60,35 +60,6 @@ header a {
   border-bottom: 1px solid #3a3a3a;
 }
 
-/*Navbar styles with dropdown toggle*/
-nav {
-  position: absolute;
-  background-color: #cacfd6;
-  width: 100%;
-  left: 0;
-  padding: 0 1rem;
-  box-shadow: 0 2px 2px #3a3a3a;
-  display: none;
-  top: 100%;
-}
-
-/*Nav toggle*/
-#nav-switch:checked~nav {
-  display: block;
-}
-
-#nav-switch {
-  display: none;
-}
-
-.nav-switch-label {
-  font-size: 2rem;
-}
-
-#nav-switch {
-  visibility: hidden;
-}
-
 /*Main content*/
 main {
   flex: 1 0 auto;
@@ -108,10 +79,6 @@ main {
   position: relative;
   margin: 0;
   box-shadow: 0 2px 2px #3a3a3a;
-}
-
-#prayeranswer {
-  visibility: hidden;
 }
 
 #appreciation {
@@ -187,10 +154,6 @@ footer {
 
   #menu>li {
     padding-left: 1rem;
-  }
-
-  .nav-switch-label {
-    display: none;
   }
 
   #logo {
