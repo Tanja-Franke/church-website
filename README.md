@@ -163,24 +163,24 @@ The "Footer" section, you will find ways to stay connected with the church throu
 Visitors can learn more about the Way, the Truth & the Life Church its beliefs, mission, and vision. In the beginning there is a hero section with the title of the page and at the end users can read about who the pastor of the church is. 
 | Desktop | Mobile |
 |-------------------|-------------------|
-|<img src="" alt="about page screenshot for desktop"/>|<img src="" alt="about page screenshot for mobile"/>|
+|<img src="assets/readmeimages/abou-hero-desktop.PNG" alt="about page screenshot for desktop"/>|<img src="assets/readmeimages/about-iphone14.png" alt="about page screenshot for mobile"/>|
 ### **Church Section**
 The "church" section is highlighting the key facts about the church. 
 | Desktop | Mobile |
 |-------------------|-------------------|
-|<img src="" alt="about page screenshot for desktop"/>|<img src="" alt="about page screenshot for mobile"/>|
+|<img src="assets/readmeimages/church-desktop.PNG" alt="church section screenshot for desktop"/>|<img src="assets/readmeimages/church-section-iphone14.png" alt="church section screenshot for mobile"/>|
 
 ### **Beliefs, Mission, and Vision Section**
 The "Beliefs, Mission and Vision" section is displaying the values of the church and what their mission and vision are.
 | Desktop | Mobile |
 |-------------------|-------------------|
-|<img src="" alt="about page screenshot for desktop"/>|<img src="" alt="about page screenshot for mobile"/>|
+|<img src="assets/readmeimages/bmv-desktop.PNG" alt="Beliefs, Mission and Vision section screenshot for desktop"/>|<img src="assets/readmeimages/bmv-section-iphone14.png" alt="Beliefs, Mission and Vision section screenshot for mobile"/>|
 
 ### **Pastor Section**
 The "Pastor" section introduces the pastor and her path into faith.
 | Desktop | Mobile |
 |-------------------|-------------------|
-|<img src="" alt="about page screenshot for desktop"/>|<img src="" alt="about page screenshot for mobile"/>|
+|<img src="assets/readmeimages/pastor-desktop.PNG" alt="Pastor section screenshot for desktop"/>|<img src="assets/readmeimages/pastor_section_iphone14.png" alt="Pastor Section screenshot for mobile"/>|
 
 
 ### **Prayer Request Page**
@@ -188,7 +188,7 @@ The "Pastor" section introduces the pastor and her path into faith.
 The Prayer Request page 
 | Desktop | Mobile |
 |-------------------|-------------------|
-|<img src="" alt="prayer request page screenshot for desktop"/>|<img src="" alt="prayer request page screenshot for mobile"/>|
+|<img src="assets/readmeimages/prayerrequest-desktop.PNG" alt="prayer request page screenshot for desktop"/>|<img src="/workspace/twtttl-church/assets/readmeimages/prayer_request_page_iphone14.png" alt="prayer request page screenshot for mobile"/>|
 
 ### **Thank You for Prayer Request Page**
 
@@ -296,6 +296,7 @@ Inserted the right path to favicons line.
 ![after](assets/readmeimages/favicon-solution.PNG)
 
 </details>
+
 ### 2. Empty Form Label identified by the Wave Accessibility
 
 **Description:**  
@@ -312,6 +313,25 @@ Was to give the label an attribute of aria-label.
 
 </details>
 
+### 3. Incorrect attribute to a div-element
+
+**Description:**  
+When the code was validated. An error message indicating an unallowed attribute on a 'div' element.
+
+**Issue**
+The 'action' attribute is not allowed on a 'div' element. Issue was not showing in the functionality of the website, but only as the code was going through validation.
+
+**Solution**
+Removing the 'action' attribute.
+
+<details>
+<summary> Click to see images </summary>
+
+![error message](assets/readmeimages/errormsg.PNG)
+![before](assets/readmeimages/error-in-code.PNG)
+![after](assets/readmeimages/error-fixed.PNG)
+
+</details>
 
 ### **Test Final Review**
 
@@ -382,8 +402,8 @@ Credits to: pexels.com @Tara_Winstead, @Rahul_Pandit
 
 ## Acknowledgements
 
-A special thank you to my mentor [Harry Dhillon](https://www.linkedin.com/in/harry-dhillon-299b321b3/) from [Code Institute](https://codeinstitute.net/ie/), for your advice, feedback and reviewing my work!
-My CI facilitator Kamil Wojciechowski and my peers from 5p for helping and giving me feedback and reviewing my work!
-The Stack Overflow community for providing answers to specific coding questions.
-Finally, God and my church community for allowing me to create this website for educational purposes and praying for me to have the right support and to finish this project.
+A special thank you to my mentor [Harry Dhillon](https://www.linkedin.com/in/harry-dhillon-299b321b3/) from [Code Institute](https://codeinstitute.net/ie/), for your advice, feedback and reviewing my work!<br>
+My CI facilitator Kamil Wojciechowski and my peers from 5p for motivating, helping and giving me feedback and reviewing my work!<br>
+The Stack Overflow community for providing answers to specific coding questions.<br>
+Finally, God and my church community for allowing me to create this website for educational purposes and praying for me to have the right support and to finish this project.<br>
 
