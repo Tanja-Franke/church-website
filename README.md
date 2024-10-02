@@ -312,7 +312,7 @@ Was to give the label an attribute of aria-label.
 
 </details>
 
-### 3. Incorrect attribute to a div-element
+### 3. Incorrect attribute on a div-element
 
 **Description:**  
 When the code was validated. An error message indicating an unallowed attribute on a 'div' element.
